@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<!-- Use table as layout -->
+<TableLayout    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <!-- 1st row, contain status -->
+    <TableRow
+        android:id="@+id/row1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+		    
+		<TextView
+			android:id="@+id/tg_status"
+		    android:background="@drawable/text_background"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginTop="5dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:textColor="@color/BLACK"
+		    android:textSize="16sp"
+		    android:layout_span="2" />
+	</TableRow>
+    
+    <!-- 2nd row, contain title -->
+    <TableRow
+        android:id="@+id/row2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    
+		<TextView 
+		    android:id="@+id/tg_setp_title"
+		    android:background="@drawable/text_background"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Set your items' price in here."
+		    android:textColor="@color/BLACK" 
+		    android:gravity="center_horizontal"
+		    android:layout_marginTop="5dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_span="2" />
+	</TableRow>
+	
+    <!-- 3rd row, contain back button -->
+    <TableRow
+        android:id="@+id/row3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp" >
+	    
+		<Button 
+		    android:id="@+id/tg_back_button"
+		    android:background="@drawable/shape"
+		    android:layout_width="wrap_content"
+		    android:layout_height="30dp"
+		    android:text="@string/BTM" 
+		    android:textColor="@color/WHITE"
+		    android:textSize="15sp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_marginBottom="5dp"
+		    android:layout_span="2" />
+	</TableRow>
+
+    <!-- 4th row, contain 1st item -->
+	<TableRow
+	    android:id="@+id/row4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item1"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_0" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned1"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		    	android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned1"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit1"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button1"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit1"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 5th row, contain 2nd item -->
+	<TableRow
+	    android:id="@+id/row5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item2"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_1" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned2"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned2"
+			    android:layout_width="70dp"
+			     android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit2"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button2"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit2"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 6th row, contain 3rd item -->
+	<TableRow
+	    android:id="@+id/row6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item3"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_2" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned3"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned3"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit3"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button3"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit3"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 7th row, contain 4th item -->
+	<TableRow
+	    android:id="@+id/row7"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item4"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_3" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned4"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned4"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit4"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button4"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit4"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 8th row, contain 5th item -->
+	<TableRow
+	    android:id="@+id/row8"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item5"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_4" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned5"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned5"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit5"
+			    android:textSize="12sp" />
+		    
+		   <Button
+			    android:id="@+id/button5"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit5"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 9th row, contain 6th item -->
+	<TableRow
+	    android:id="@+id/row9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item6"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_5" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned6"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned6"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit6"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button6"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit6"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 10th row, contain 7th item -->
+	<TableRow
+	    android:id="@+id/row10"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item7"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_6" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned7"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned7"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit7"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button7"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit7"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 11th row, contain 8th item -->
+	<TableRow
+	    android:id="@+id/row11"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item8"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_7" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned8"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned8"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit8"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button8"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit8"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 12th row, contain 9th item -->
+	<TableRow
+	    android:id="@+id/row12"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item9"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_8" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned9"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned9"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit9"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button9"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit9"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 13th row, contain 10th item -->
+	<TableRow
+	    android:id="@+id/row13"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item10"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_9" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned10"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned10"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit10"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button10"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit10"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 14th row, contain 11th item -->
+	<TableRow
+	    android:id="@+id/row14"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item11"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_10" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned11"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned11"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit11"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button11"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit11"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 15th row, contain 12th item -->
+	<TableRow
+	    android:id="@+id/row15"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item12"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_11" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned12"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned12"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit12"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button12"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit12"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 16th row, contain 13th item -->
+	<TableRow
+	    android:id="@+id/row16"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item13"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_12" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned13"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned13"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit13"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button13"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit13"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 17th row, contain 14th item -->
+	<TableRow
+	    android:id="@+id/row17"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item14"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_13" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned14"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned14"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit14"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button14"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit14"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+	
+	<!-- 18th row, contain 15th item -->
+	<TableRow
+	    android:id="@+id/row18"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="7dp" >
+			
+		<ImageView
+		    android:id="@+id/item15"
+		    android:layout_marginLeft="5dp"
+		    android:layout_width="210dp"
+		    android:layout_height="120dp"
+		    android:src="@drawable/tg_14" />
+		
+		<RelativeLayout 
+		    android:orientation="horizontal"
+		    android:layout_marginLeft="5dp" >
+		    
+		    <TextView 
+		        android:id="@+id/tg_owned15"
+		        android:background="@drawable/text_background"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginTop="5dp"
+		        android:layout_centerInParent="true"
+		        android:textSize="12sp"
+		        android:textColor="@color/BLACK" />
+		    
+		    <EditText
+		        android:layout_below="@+id/tg_owned15"
+			    android:layout_width="70dp"
+			    android:layout_height="40dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginTop="5dp"
+			    android:inputType="number"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/tg_edit15"
+			    android:textSize="12sp" />
+		    
+		    <Button
+			    android:id="@+id/button15"
+			    android:background="@drawable/shape"
+			    android:text="Change Price"
+			    android:textSize="12sp"
+			    android:layout_below="@+id/tg_edit15"
+			    android:layout_width="65dp"
+			    android:layout_height="40dp"
+			    android:layout_marginTop="5dp"
+			    android:layout_centerInParent="true"
+			    android:textColor="@color/WHITE" />
+		</RelativeLayout>
+	</TableRow>
+</TableLayout>
+</ScrollView>

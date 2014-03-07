@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_activity_tes_minat_soal1">Soal1</string>
+    <string name="title_activity_tes_minat_soal2">TesMinatSoal2</string>
+    <string name="title_activity_tes_minat">TesMinat</string>
+
+    <string-array name="Soal_Set_1">
+        <item>Dalam bekerja, manakah faktor yang paling penting menurut Anda?</item>
+        <item>Manakah dari aktivitas berikut yang paling menarik menurut Anda?</item>
+        <item>Apakah yang Anda lakukan ketika menghadapi masalah yang berat?</item>
+        <item>Dari penyataan berikut, manakah yang paling sesuai dengan Anda?</item>
+        <item>Dari pilihan berikut, sifat manakah yang paling sesuai dengan Anda?</item>
+        <item>Dari pilihan berikut, manakah yang paling sesuai dengan Anda?</item>
+        <item>Dari gambar berikut, manakah yang menurut Anda paling menarik?</item>
+        <item>Jika Anda mempunyai uang lebih, apakah yang akan Anda lakukan?</item>
+        <item>Dari berita berikut, manakah yang Anda ikuti perkembangannya?</item>
+        <item>Dari permainan berikut, manakah yang Anda paling gemari?</item>
+        <item>Dari penyataan berikut, manakah yang paling sesuai dengan Anda?</item>
+        <item>Dari gambar berikut, manakah yang menurut Anda paling menarik?</item>
+        <item>Dari kegiatan berikut, manakah yang Anda ingin coba lakukan?</item>
+        <item>Jika Anda memiliki waktu luang dan ingin mengisinya dengan kegiatan yang berguna, kegiatan apa yang Anda ingin lakukan?</item>
+        <item>Dari aktivitas berikut, manakah yang paling Anda sering lakukan?</item>
+    </string-array>
+    
+    <string name="title_activity_tes_minat_disclaimer">TesMinatDisclaimer</string>
+</resources>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbackground"
+    android:padding="30dp"
+    tools:context=".ChatMenu" >
+
+    <Button
+        android:id="@+id/olchat"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/offchat"
+        android:layout_centerHorizontal="true"
+        android:text="@string/olchat" />
+
+    <Button
+        android:id="@+id/offchat"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/olchat"
+        android:layout_alignParentBottom="true"
+        android:text="@string/offchat" />
+
+</RelativeLayout>

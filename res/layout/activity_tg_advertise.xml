@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>     
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tg_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <TextView
+		android:id="@+id/tg_status"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:textColor="@color/BLACK"
+	    android:textSize="16sp" 
+	    android:textAlignment="center" />
+    
+    <Button 
+	    android:id="@+id/tg_back_button"
+	    android:background="@drawable/shape"
+	    android:layout_below="@+id/tg_status"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:text="@string/BTM" 
+	    android:textColor="@color/WHITE"
+	    android:textSize="15sp"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="5dp" />
+   
+    <CheckBox
+        android:id="@+id/tg_flyer"
+        android:background="@drawable/text_background"
+        android:layout_below="@+id/tg_back_button"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Flyer | $300"
+        android:textColor="@color/WHITE"
+        android:textSize="22sp"
+        android:paddingLeft="40dp" />
+    
+    <CheckBox
+        android:id="@+id/tg_newspaper"
+        android:background="@drawable/text_background"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tg_flyer"
+        android:text="Newspaper | $550"
+        android:textColor="@color/WHITE"
+        android:textSize="22sp"
+        android:paddingLeft="40dp"  />
+    
+    <CheckBox
+        android:id="@+id/tg_radio"
+        android:background="@drawable/text_background"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tg_newspaper"
+        android:text="Radio | $800"
+        android:textColor="@color/WHITE"
+        android:textSize="22sp"
+        android:paddingLeft="40dp"  />
+    
+    <CheckBox
+        android:id="@+id/tg_tv"
+		android:background="@drawable/text_background"	
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tg_radio"
+        android:text="Television | $1050"
+        android:textColor="@color/WHITE"
+        android:textSize="22sp"
+        android:paddingLeft="40dp"  />
+    
+    <TextView
+        android:id="@+id/tg_done"
+        android:background="@drawable/shape"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tg_tv"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tg_start"
+        android:clickable="true"
+        android:text="Done"
+        android:textColor="@color/WHITE"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+</RelativeLayout> 

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_media_informasi">Media Informasi</string>
+
+    <string-array name="Nama_Fakultas">
+        <item>Fakultas Ekonomi</item>
+        <item>Fakultas Ilmu Administrasi Bisnis dan Ilmu Komunikasi</item>
+        <item>Fakultas Keguruan dan Ilmu Pendidikan</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Teknobiologi</item>
+    </string-array>
+
+    <string name="Prodi1">Program Studi Manajemen</string>
+    <string name="Prodi2">Program Studi Akuntansi</string>
+    <string name="Prodi3">Program Studi Ekonomi Pembangunan</string>
+    <string name="Prodi4">Program Studi Ilmu Administrasi Bisnis</string>
+    <string name="Prodi5">Program Studi Ilmu Komunikasi</string>
+    <string name="Prodi6">Program Studi Hospitality</string>
+    <string name="Prodi7">Program Studi Pendidikan Bahasa Inggris</string>
+    <string name="Prodi8">Program Studi Ilmu Pendidikan Teologi</string>
+    <string name="Prodi9">Program Studi Bimbingan dan Konseling</string>
+    <string name="Prodi10">Program Studi Pendidikan Guru Sekolah Dasar</string>
+    <string name="Prodi11">Program Studi Teknik Mesin</string>
+    <string name="Prodi12">Program Studi Teknik Elektro</string>
+    <string name="Prodi13">Program Studi Teknik Industri</string>
+    <string name="Prodi14">Program Studi Hukum</string>
+    <string name="Prodi15">Program Studi Kedokteran Umum</string>
+    <string name="Prodi16">Program Studi Psikologi</string>
+    <string name="Prodi17">Program Studi Biologi</string>
+    
+    <string name="title_activity_deskripsi_prodi">Deskripsi Program Studi</string>
+    <string name="peminatan">Peminatan</string>
+    <string name="prospek_karir">Prospek Karir</string>
+    
+    <string name="Prodi1_deskripsi">
+	<![CDATA[
+        Kurikulum Prodi Manajemen memberikan perspektif yang luas tentang Manajemen, mengembangkan kemampuan mahasiswa untuk melakukan analisis terhadap suatu permasalahan, melatih kreativitas, kemandirian dan mengembangkan kemampuan mahasiswa untuk beradaptasi dengan kemajuan dan perubahan lingkungan bisnis.
+     	<br/>
+		Gelar: S.E. (Sarjana Ekonomi)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi1_peminatan">
+	<![CDATA[
+		<font color=\'red\'><b>Manajemen Pemasaran</b></font><br/>
+		Peminatan ini terfokus pada riset pemasaran, pemasaran jasa, pemasaran secara global, perilaku konsumen dan pemasaran secara online, serta strategi dalam manajemen pemasaran.
+		<br/><br/><b>Manajemen Keuangan</b><br/>
+		Peminatan ini menitikberatkan pada manajemen keuangan korporasi, manajemen investasi, manajemen risiko, manajemen keuangan internasional, dan rekayasa keuangan dengan tujuan mencapai maksimalisasi nilai perusahaan.
+		<br/><br/><b>Manajemen Sumber Daya Manusia</b><br/>
+		Peminatan ini berfokus pada manajemen sumber daya manusia yang stratejik, manajemen kinerja, pelatihan dan pengembangan SD, serta manajemen perubahan dan kepemimpinan.
+		<br/><br/><b>Manajemen Bisnis</b><br/>
+		Peminatan ini mempelajari cara-cara membangun sebuah bisnis, dengan yang berfokus pada manajemen bisnis keluarga, perencanaan bisnis, supply chain management, negosiasi bisnis, dan business project.
+		<br/><br/><b>Pasar Modal</b><br/>
+		Peminatan ini membekali mahasiswa untuk menjadi seorang professional di pasar modal dengan mempelajari manajemen portofolio, analisis laporan keuangan dan valuasi ekuitas, pendanaan perusahaan, operasi dan perantara efek, serta etika pasar modal.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi1_prospek">Lulusan Prodi Manajemen dapat menjadi entrepreneur dan/atau bekerja pada perusahaan swasta/lembaga pemerintah sebagai Sales Manager, Marketing Manager, Human Resource Manager, Finance Manager, Financial Analyst, Financial Planner, Management Consultant, Investment Banking, Market Development Manager.</string>
+    <string name="Prodi2_deskripsi">
+	<![CDATA[
+        Perkuliahan diberikan dalam bentuk pemberian konsep teori dan aplikasinya dalam kasus nyata. Mahasiswa memiliki kesempatan untuk mengaplikasikan secara langsung teori yang telah diperoleh melalui magang di Kantor Akuntan Publik (KAP). Mahasiswa juga mendapat matakuliah praktek seperti Praktek Pengauditan, Praktek Sistem Informasi Akuntansi dan Praktek Perpajakan.
+     	<br/>
+		Gelar: S.E. (Sarjana Ekonomi)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi2_peminatan">
+	<![CDATA[
+		<b>Sistem Informasi Akuntansi</b><br/>
+		Mempelajari sistem informasi akuntansi dengan penekanan pada informasi, komunikasi dan jaringan teknologi yang diaplikasikan dalam siklus-siklus transaksi dan struktur pengendalian internalnya.
+		<br/><br/><b>Pengauditan</b><br/>
+		Meliputi materi tentang pengenalan audit atas laporan keuangan, seputar lingkungan audit, konsep-konsep dasar audit, bukti audit dan dokumentasi, perencanaan audit, audit atas sistem pengendalian intern dan audit sampling.
+		<br/><br/><b>Akuntansi Manajemen</b><br/>
+		Membahas tentang penggunaan data akuntansi internal oleh manajer dan menunjukkan bagaimana informasi tersebut digunakan untuk menjalankan fungsi perencanaan, pengendalian dan pembuatan keputusan.
+		<br/><br/><b>Perpajakan</b><br/>
+		Berisi tentang pemahaman pengertian pajak, ciri-ciri pajak, dan kemudian lebih spesifik membahas tentang UU tentang perpajakan yang berlaku di Indonesia, dan juga peraturan-peraturan pelaksanaannya.
+		<br/><br/><b>Akuntansi dan Kuangan Pasar Modal</b><br/>
+		Secara khusus akan membahas pasar dan instrumen investasi pendapatan tetap dan ekuitas; dan strategi investasi dalam sekuritas pendapatan tetap dan ekuitas.
+		<br/><br/><b>Akuntansi Keuangan</b><br/>
+		Mempelajari dasar-dasar akuntansi perbankan untuk industri khusus dan analisis laporan keuangan perbankan.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi2_prospek">Lulusan Prodi Akuntansi dapat bekerja sebagai auditor, konsultan, cost analyst, analisis keuangan dan pajak, dan bidang lainnya, baik di perusahaan swasta maupun pemerintah serta sebagai wirausahawan.</string>
+    <string name="Prodi3_deskripsi">
+	<![CDATA[
+        Prodi Ekonomi Pembangunan merupakan salah satu dari sedikit Program Studi dalam tataran S1 di Indonesia yang menawarkan kajian terkini Ekonomi Keuangan (Financial Economics) dan kajian Perbankan (Money & Banking) secara mendalam melalui pendekatan modern, dengan landasan pemahaman makro dan mikroekonomi yang kuat.
+     	<br/>
+		Gelar: S.E. (Sarjana Ekonomi)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi3_peminatan">
+	<![CDATA[
+		<b>Ekonomi Keuangan</b><br/>
+		Topik utama dalam Ekonomi Keuangan adalah pada kajian yang mendalam tentang pasar keuangan, baik instrumen, pelaku  maupun sistem dan mekanismenya. Cukup banyak bahan kajian disediakan untuk tahap pengenalan  sampai dengan kajian mendalam tentang instrumen-instrumen keuangan serta  pengukuran dan pengelolaan risiko keuangan. Kajian tentang keuangan perusahaan juga diberikan dalam konteks kaitannya dengan pasar keuangan.
+		<br/><br/><b>Perbankan</b><br/>
+		Topik utama kajian perbankan mencakup pemahaman operasional perbankan, peran perbankan dalam perekonomian, manajemen perbankan,  aspek globalisasi  perbankan melalui sistem moneter internasional dan pasar valuta asing, serta  analisis kredit  dan risiko perbankan.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi3_prospek">Lulusan Prodi Ekonomi Pembangunan dapat berkarya pada Institusi Perbankan, Pasar Modal, Perusahaan Sekuritas, Lembaga Keuangan Non Bank, Akademisi, Peneliti, BUMN/Perusahaan Swasta.</string>
+    <string name="Prodi4_deskripsi">
+	<![CDATA[
+        Perkembangan bisnis dewasa ini menghadirkan tantangan sekaligus peluang bagi para pebisnis baru. Kurikulum Ilmu Administrasi Bisnis disusun guna mempersiapkan mahasiswa mengenali berbagai aspek bisnis sebagai bagian dari sistem sosial, perpaduan bisnis fundamental, kecerdasan sosial, entrepreneurial, keterampilan bisnis spesifik untuk pembentukan kompetensi terkait fungsi, proses, dan organisasi bisnis.
+     	<br/>
+		Gelar: S.A.B. (Sarjana Administrasi Bisnis) 
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi4_peminatan">
+	<![CDATA[
+		<b>Kewirausahaan</b><br/>
+		Peminatan Kewirausahaan mengarahkan mahasiswa agar memiliki pengetahuan dan keterampilan dalam penyusunan proposal bisnis dan pengelolaan bisnis dengan baik.
+		<br/><br/><b>Manajemen Sumber Daya Manusia</b><br/>
+		Peminatan ini membekali mahasiswa agar memiliki pengetahuan dan keterampilan dalam penyusunan strategi dan kebijakan pengelolaan sumber daya manusia.
+        <br/><br/><b>Manajemen Pemasaran</b><br/>
+        Peminatan Manajemen Pemasaran membekali mahasiswa dengan pengetahuan dan keterampilan di dalam penyusunan strategi dan kebijakan pemasaran.
+        <br/><br/><b>Bisnis Internasional</b><br/>
+		Peminatan ini membekali mahasiswa dengan pengetahuan, keterampilan, dan sensitivitas dalam pengambilan keputusan bisnis internasional.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi4_prospek">Banyak lulusan Prodi Ilmu Administrasi Bisnis menduduki berbagai jabatan manajerial yang penting di perusahaan-perusahaan swasta nasional, asing, maupun instansi pemerintahan dan menjadi wirausahawan yang berhasil.</string>
+    <string name="Prodi5_deskripsi">
+	<![CDATA[
+        Dengan proses belajar yang kreatif, mahasiswa dipersiapkan menjadi profesional komunikasi yang berdaya analisis dan berkemampuan eksekusi strategis. Perusahaan lokal, nasional dan global saat ini dihadapkan dengan beragam karakteristik publik. Menghadapi situasi tersebut, individu dengan kompetensi komunikasi sangat dibutuhkan. Unika Atma Jaya memfasilitasi mahasiswa untuk mempelajari kemampuan teknis, pengetahuan dan pemikiran kritis untuk mengembangkan strategi kebijakan komunikasi serta strategi komunikasi pemasaran yang jitu.
+     	<br/>
+		Gelar: S.Kom. (Sarjana Komunikasi) 
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi5_peminatan">
+	<![CDATA[
+		<b>Komunikasi Korporasi</b><br/>
+		Era digitalisasi dan informasi menempatkan ahli strategi komunikasi sebagai penggerak bisnis. Menghadapi situasi tersebut, individu dengan kompetensi komunikasi sangat dibutuhkan. Peminatan ini memfasilitasi mahasiswa untuk memperoleh pengetahuan, pemikiran kritis dan mempelajari kemampuan teknis untuk mengembangkan strategi dan kebijakan komunikasi ke dalam maupun ke luar perusahaan.
+		<br/><br/><b>Komunikasi Pemasaran</b><br/>
+		Tiap produk dan layanan bisnis perlu dikomunikasikan secara tepat agar publik berminat dan memiliki loyalitas. Oleh karena itu, diperlukan individu yang mampu menjembatani publik dengan industri penyedia pemenuhan kebutuhan. Peminatan ini memfasilitasi mahasiswa utnuk memiliki pengetahuan, pemikiran kritis, dan kemampuan teknis untuk menyusun strategi komunikasi pemasaran yang jitu.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi5_prospek">Lulusan Prodi Ilmu Komunikasi dapat berkarya sebagai account executive, marketing officer, media analyst/media buyer, analis pasar, publicity officer, spesialis media dan publikasi, communication officer, konsultan media, market advisor, chief communication, dan chief marketing officer.</string>
+    <string name="Prodi6_deskripsi">
+	<![CDATA[
+        Pengembangan Kepariwisataan menunjukkan kecenderungan yang semakin meningkat, semakin kompleks, semakin beragam dengan tuntutan kualitas yang juga semakin meningkat seiring dengan meningkatnay mobilitas manusia. Sejalan dengan itu maka pengembangan Kepariwisataan ke depan menuntut tersedianya SDM yang berkualitas bukan saja dalam hal pelayanan, tetapi juga dalam hal perencanaan, penelitian dan pengembangan secara akademis. Berdasarkan pada pemahaman tersebut, Unika Atma Jaya ikut berpartisipasi dalam rangka mencerdaskan kehidupan bangsa melalui pembukaan program studi Hospitality jenjang pendidikan Strata Satu sebagai pusat pengembangan ilmu pengetahuan dan pariwisata serta pusat kegiatan penelitian sesuai dengan kebutuhan pembangunan sekarang dan masa yang akan datang.
+     	<br/>
+		Gelar:  S.Par. (Sarjana Pariwisata)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi6_peminatan">
+	<![CDATA[
+		<b>Akomodasi dan Katering</b><br/>
+		Peminatan ini mempelajari manajemen seluruh sektor akomodasi dan katering, yaitu bidang Hotel, Apartment, Base Camp, Motel dan Katering yang meliputi restaurant, pengelolaan makanan dan minuman untuk perorangan maupun kelompok besar konsumen lainnya. Selain manajemen di bidang tersebut di atas, mahasiswa yang mengambil peminatan ini juga mempelajari strategi pemasaran dan efisiensi sumber daya.
+		<br/><br/><b>Konvensi</b><br/>
+		Peminatan ini mempelajari manajemen pengelolaan rangkaian kegiatan yang meliputi penyelenggaraan seminar, pameran, perjalanan wisata, protokoler acara, pemesanan akomodasi, tempat acara, transportasi, dan sarana dan prasaran yang dibutuhkan, hubungan dengan pihak terkait, untuk kepentingan dokumentasi, pemasaran, perencanaan sampai dengan pelaksanaan.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi6_prospek">Lulusan Prodi Hospitality (Pariwisata) berkarir di bidang akomodasi (accommodation service), layanan makanan dan minuman (food and beverage service), bidang kebudayaan dan kesenian (cultural service), rekreasi dan hiburan (recreation and entertainment service), dan bidang-bidang yang terkait dengan kepariwisataan.</string>
+    <string name="Prodi7_deskripsi"> <!-- not yet -->
+	<![CDATA[
+        Program Studi Pendidikan Bahasa Inggris menyelenggarakan program pendidikan bahasa inggris untuk guru sekolah pada umumnya dan untuk guru anak-anak pada khususnya dengan taraf internasional. Dengan orientasi pengetahuan dan ketrampilan ber-bahasa Inggris, kurikulum dirancang efektif dan aplikatif dengan 144 SKS yang terdiri dari mata kuliah yang berkaitan dengan 4 keterampilan dasar bahasa Inggris, pengetahuan linguistik, proses belajar dan mengajar, metodologi pengajaran serta mata kuliah kesastraan, seperti drama dan prose. Di samping itu, kurikulum program studi bahasa Inggris juga memuat beberapa mata kuliah pilihan yang menunjang karir masa depan mahasiswa, seperti Secretary, banking, Business English, Bahasa Mandarin dan Translation.
+     	<br/>
+		Gelar: S.Pd. (Sarjana Pendidikan)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi7_peminatan">
+	<![CDATA[
+		<b>Teaching English for Primary School Learners</b><br/>
+		<!-- *********************************** -->
+		<br/><br/><b>Teaching English for Secondary School Learners</b><br/>
+		<!-- ************************************* -->
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi7_prospek">Lulusan dapat bekerja di bidang pendidikan (guru atau instruktur di institusi bertaraf nasional dan internasional) maupun di bidang non pendidikan yang menggunakan bahasa Inggris, seperti sekretaris, pembaca berita berbahasa Inggris, staf kedutaan/perusahaan, staf divisi hubungan masyarakat, penerjemah, dll.</string>
+    <string name="Prodi8_deskripsi"> <!-- not yet -->
+	<![CDATA[
+        Program Studi Ilmu Pendidikan Teologi menghasilkan tenaga profesional yang mampu mengembangkan ilmu pendidikan teologi, pewarta iman, dan pengkader fasilitator di bidang pewartaan iman, baik dalam lingkup sekolah maupun luar sekolah, konsultan mental-spiritual pada instansi di luar sekolah, serta katekis yang kritis dalam konteks masyarakat megapolitan. Ilmu Pendidikan (IP) Teologi memberlakukan kurikulum berbasis kompetensi yang meliputi empat rumpun yakni, Kitab Suci, Teologi, Pastoral/Katekese, dan Pendidikan Umum.
+     	<br/>
+		Gelar: S.Pd. (Sarjana Pendidikan)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi8_peminatan">
+	<![CDATA[
+		<b>Pendidikan Guru Agama SD</b><br/>
+		<!-- ************************************* -->
+		<br/><br/><b>Pendidikan Guru Agama SMP</b><br/>
+		<!-- ************************************* -->
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi8_prospek">Lulusan IP Teologi dapat berkarya sebagai guru agama di sekolah (jenjang SD-SMA), katekis di paroki, keuskupan, pusro ABRI, pengemban karya katekese yang berkarya sebagai penerbit buku-buku Katolik, wartawan majalah Katolik, penulis buku rohani, pengembang media pemnbinaan iman, pengajar atau karyawan di panti asuhan, yayasan, sekolah, biara maupun universitas atau di departemen agama dan pendidikan.</string>
+    <string name="Prodi9_deskripsi"> <!-- not yet -->
+	<![CDATA[
+		<!-- ************************************* -->
+     	<br/>
+		Gelar: S.Pd. (Sarjana Pendidikan)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi9_peminatan">
+	<![CDATA[
+		<b>Layanan Konseling Pendidikan</b><br/>
+		Peminatan ini berfokus pada penguasaan konsep merancang kegiatan bimbingan dan konseling di lingkungan sekolah serta kemampuan melakukan konseling individual, konseling kelompok, dan kegiatan psikoedukasional bagi siswa.
+		<br/><br/><b>Layanan Konseling Sosial Kemasyarakatan</b><br/>
+		Peminatan ini berfokus pada penguasaan konsep dan kemampuan merancang kegiatan bimbingan dan konseling (individual, kelompok, maupun kegiatan psikoeduasional) di bidang sosial kemasyarakatan.
+		<br/><br/><b>Layanan Konseling Karir Organisasi</b><br/>
+		Peminatan ini berkonsentrasi pada penguasaan konsep dan kemampuan merancang kegiatan konseling (individual, kelompok, maupun kegiatan psikoeduasional) dalam konteks permasalahan kantor (pengembangan SDM).
+		<br/>
+        ]]>
+    </string>
+    <string name="Prodi9_prospek">
+	<![CDATA[
+        • Lulusan Prodi Bimbingan & konseling dengan peminatan pendidikan dapat berkarya sebagai guru BK di tingkat SD hingga SMA, guru kursus di bimbingan belajar, terapis bagi anak berkebutuhan khusus, konsultan pendidikan dan wirausaha bidang pendidikan.
+        <br/>• Lulusan Prodi Bimbingan & konseling dengan peminatan sosial kemasyarakatan dapat berkarya sebagai pendamping di panti asuhan dan panti werdha atau lembaga sosial, penggerak pada lembaga sosial kemasyarakatan, konselor dan staff di rumah sakit.
+		<br/>• Lulusan Prodi Bimbingan & konseling dengan peminatan karir organisasi dapat berkarya sebagai staf <i>Human Resources Development</i>, pelatih di berbagai bidang, maupun konsultan karir.
+        ]]>
+    </string>
+    <string name="Prodi10_deskripsi"> <!-- not yet -->
+
+
+<![CDATA[
+        Prodi PGSD mempersiapkan mahasiswa menjadi guru kelas SD yang memiliki kompetensi: mengenal peserta didik secara mendalam, menguasai substansi dan metodologi bidang studi di SD, menyelenggarakan pembelajaran yang mendidik, dan mengembangkan kemampuan profesional secara berkelanjutan; serta meneliti dan mengaplikasikan pengetahuan dalam mengembangkan pembelajaran kreatif di SD. Kurikulum yang diterapkan sudah berdasarkan Standar Kompetensi Guru Kelas SD/MI.
+     	<br/>
+		Gelar:  S.Pd. (Sarjana Pendidikan)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi10_peminatan">
+	<![CDATA[
+		<b>Pembelajaran MIPA</b><br/>
+		Peminatan yang memperkaya mahasiswa sebagai guru kelas SD dengan pendalaman konsep dan pembelajaran metematika dan IPA di SD.
+		<br/><br/><b>Bahasa Inggris</b><br/>
+		Peminatan yang memperkaya mahasiswa melaksanakan pembelajaran SD dalam bahasa Inggris.
+        ]]>
+    </string>
+    <string name="Prodi10_prospek">Lulusan PGSD dapat berkarya sebagai guru kelas SD yang memiliki keunggulan dalam bidang MIPA dan pembelajaran dalam bahasa Inggris di SD; serta berkarir sebagai kepala SD atau pengurus yayasan di lembaga pendidikan.</string>
+    <string name="Prodi11_deskripsi"> <!-- not yet -->
+	<![CDATA[
+        Program Studi Teknik Mesin bertujuan menghasilkan sarjana teknik mesin yang mempunyai keahlian dan profesionalisme tinggi dalam melakukan kegiatan rekayasa mekanik, penelitian dan pengembangan yang berciri produktif, inovatif, serta memiliki jiwa kewirausahaan khususnya dalam bidang teknik mesin.
+     	<br/>
+		Gelar:  S.T. (Sarjana Teknik)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi11_peminatan">
+	<![CDATA[
+		<b>Perancangan Teknik</b><br/>
+		<!-- ************************************* -->
+		<br/><br/><b>Konversi Energi dan Energi Terbarukan</b><br/>
+		<!-- ************************************* -->
+        <br/><br/><b>Teknik Produksi dan Material</b><br/>
+        <!-- ************************************* -->
+        <br/><br/><b>Mekatronika dan Otomasi Industri</b><br/>
+        <!-- ************************************* -->
+        <br/><br/><b>Teknik Otomotif</b><br/>
+        <!-- ************************************* -->
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi11_prospek">Lebih dari 2.000 lulusannya telah berkarya pada industri manufaktur dan perusahaan-perusahaan rekayasa terkemuka berskala nasional dan internasional, industri minyak, gas, dan pertambangan. Beberapa lulusan menjadi pemilik beberapa perusahaan yang terkait dengan bidang teknik mesin dan memperoleh beasiswa S2 dan S3 ke berbagai negara seperti USA, Inggris, Jerman, Belgia, Swedia.</string>
+    <string name="Prodi12_deskripsi"> 
+	<![CDATA[
+        Progam Studi Teknik Elektro berdiri sejak tahun 1979 dengan tujuan untuk menghasilkan Sarjana Teknik Elektro dengan yang memiliki kemampuan dalam menganalisis permasalahan dan mengupayakan usulan solusi secara logis, sistematis yang didukung metode yang tepat guna disertai sikap profesional yang tinggi dan semangat wirausaha dengan basis inovasi keelektroan. Kurikulum Prodi Teknik Elektro dirancang mempertimbangkan faktor internal dan eksternal diantaranya perkembangan keilmuan dan teknologi, perkembangan industri dan dunia kerja juga. Pada semester 5 mahasiswa  bisa mulai mengkhususkan bidang keelektroan yang akan dipelajari lebih dalam melalui pemilihan peminatan.  Perkuliahan juga dilengkapi dengan program-program sertifikasi dan pelatihan-pelatihan keahlian yang akan sangat bermanfaat bagi dunia kerja.
+     	<br/>
+		Gelar:  S.T. (Sarjana Teknik)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi12_peminatan">
+	<![CDATA[
+		<b>Elektronika</b><br/>
+		Titik berat mata kuliah pada peminatan ini adalah pada bidang sistem instrumentasi dan otomasi industri. Mahasiswa yang mengambil peminatan ini menguasai kompetensi teknik elektro dasar juga memiliki kompetensi untuk merencanakan, menginstalasi, melakukan trouble shooting serta menganalisis sistem kendali industri. Sejumlah matakuliah juga disiapkan agar mahasiswa menguasai bidang ketenagaan listrik.
+		<br/><br/><b>Telekomunikasi</b><br/>
+		Mata kuliah pada peminatan ini disiapkan untuk mahasiswa yang bermaksud memperdalam pengetahuan dan keahlian di bidang komunikasi nirkabel dan jaringan komunikasi data. Mahasiswa yang mengambil peminatan ini selain menguasai kompetensi teknik elektro dasar juga memiliki kompetensi untuk merencanakan, menginstalasi, melakukan trouble-shooting dan  menganalisa kinerja jaringan telekomunikasi suara, dengan penekanan utama pada teknologi nirkabel serta jaringan komunikasi data pada level Local Area Network dan Wide Area Network.
+		<br/><br/><b>Sistem Komputer</b><br/>
+		Mahasiswa yang berminat memperdalam penguasaan bidang sistem basis data dan administrator dapat mengambil peminatan Komputer. Mata kuliah keahlian khusus pada peminatan ini dirancang untuk mempersiapkan mahasiswa sehingga tidak saja menguasai kompetensi teknik elektro dasar melainkan juga berkompetensi merancang, mengimplementasi dan menganalisis piranti lunak dengan berbagai bahasa pemrograman. Sejumlah matakuliah keahlian khusus juga dipersiapkan agar mahasiswa menguasai arsitektur perangkat keras sistem komputer.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi12_prospek">Lulusan prodi Teknik Elektro mampu berkarya di bidang instrumentasi dan otomasi industri, wireless dan jaringan komunikasi data, sistem basis data terintegrasi dan administrator, membangun wirausaha dan jasa konsultan di bidang elektronika, Reserach dan Development, dosen peneliti, IT Services, Software Quality Control.</string>
+    <string name="Prodi13_deskripsi"> <!-- not yet -->
+	<![CDATA[
+        Prodi Teknik Industri membekali mahasiswanya dengan kemampuan untuk menganalisis dan memecahkan masalah-masalah produksi, bisnis dan/atau manajemen yang kompleks, serta perancangan produk yang terintegrasi, terutama dalam industri manufaktur dan jasa. Kurikulum Teknik Industri dirancang untuk mendukung kebutuhan dunia industri yang selalu berkembang sesuai dengan kompetensi yang direncanakan.
+     	<br/>
+		Gelar:  S.T. (Sarjana Teknik)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi13_peminatan">
+	<![CDATA[
+		<b>Perencanaan Produksi</b><br/>
+		<!-- ************************************* -->
+		<br/><br/><b>Perencanaan Bisnis dan Manajemen</b><br/>
+		<!-- ************************************* -->
+		<br/><br/><b>Perancangan Produk</b><br/>
+		<!-- ************************************* -->
+		<br/><br/><b>Pemodelan Sistem</b><br/>
+		<!-- ************************************* -->
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi13_prospek">Lulusan prodi Teknik Industri dapat bekerja di bidang Perencana Produksi, konsultan bisnis dan manajemen, riset dan pengembangan, riset pemasaran, otomotif, HRD, jasa perbankan/asuransi, wirausaha, organisasi pemerintahan, dan industri manufaktur.</string>
+    <string name="Prodi14_deskripsi">
+	<![CDATA[
+        Prodi Hukum mendidik mahasiswa agar beretika dan tanggap pada permasalahan hukum saat ini. Untuk itu, fakultas membuka peluang bagi mahasiswa untuk magang di PKBH (Pusat Konsultasi dan Bantuan Hukum) Atma Jaya, menjadi asisten peneliti pada penelitian dosen, mengikuti kegiatan-kegiatan penyuluhan hukum, praktikuk, kunjungan ke lembaga-lembaga hukum dan mengikuti Atma Jaya Moot Court Guild (pelatihan peradilan semu). mahasiswa juga dapat memperkaya diri dengan mengikuti kursus Pendidikan Khusus Profesi Advokat (PKPA), CHRP (Certified Human Resources Professional), Pelatihan Kontak Infrastuktur, maupun kursus Mediasi. Dengan adanya kursus dan kesempatan magang, mahasiswa memperoleh pengetahuan dan keterampilan untuk memasuki dunia dan situasi kerja terkini.
+     	<br/>
+		Gelar:  S.H. (Sarjana Hukum)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi14_peminatan">
+	<![CDATA[
+		<b>Hukum Ekonomi Bisnis</b><br/>
+		Materi difokuskan pada penerapan konsep dan praktek hukum yang berkaitan dengan dunia bisnis, seperti Hukum Kepailitan, Hukum Perdagangan Internasional dan Regional, Hukum Penanaman Modal, Hukum Pasar Modal, Kapita Selekta Hukum Ekonomi Bisnis, Hukum Perlindungan Konsumen, Hukum Atas Karya Intelektual, Hukum Perbankan, Hukum Perusahaan, Hukum Perjanjian Internasional Bidang Ekonomi, Hukum Tentang Surat-Surat Berharga, Hukum Persaingan Usaha.
+		<br/><br/><b>Hukum Pidana</b><br/>
+		Materi difokuskan pada hukum pidana material maupun formal, baik yang diatur dalam Kitab Undang-undang Hukum Pidana (KUHP) dan Kitab Undang-undang Hukum Acara Pidana (KUHAP) maupun peraturan perundang-undangan pidana lainnya yang bersifat khusus. Selain itu diberikan pula materi dan ilmu pengetahuan pendukung lainnya yang meliputi kriminologi, penitensier, hukum pidana internasional dan transnasional, pembaharuan hukum pidana, serta membahas kasus-kasus yang berkaitan dengan hukum pidana.
+		<br/><br/><b>Hukum Perdata</b><br/>
+		Peminatan ini berkonsentrasi pada materi subyek hukum, perkawinan, perceraian, benda dan hak kebendaan, dan cara-cara pewarisan. Materi lainnya termasuk perikatan dan perjanjian, baik sumber maupun jenisnya termasuk macam-macam bukti dan daluwarsa juga dipelajari. Semua materi tersebut akan selalu dikaikan dengan perubahan peraturan perundangan yang ada.
+		<br/><br/><b>Hukum Kenegaraan</b><br/>
+		Peminatan ini berfokus pada Ilmu Kenegaraan umumnya yang mengupas tentang teori-teori pembentukan negara, bentuk-bentuk pemerintahan dan sistem pemerintahan. Dalam Hukum Tata Negara dibahas tentang susunan, wewenang alat perlengkapan negara serta hubungannya antara yang satu dengan yang lain. 
+		<br/><br/><b>Hukum Internasional</b><br/>
+		Peminatan ini menitikberatkan pada keseluruhan asas hukum dan kaedah-kaedah yang mengatur hubungan antara negara dengan negara, negara dengan subyek hukum bukan negara, serta subyek hukum bukan negara yang satu dengan yang lain.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi14_prospek">Lulusan dapat berkarya sebagai hakim, jaksa, notaris, pengacara/advokat, karyawan bagian hukum di perusahaan swasta, instansi pemerintah, mauoun organisasi internasional seperti WHO dan UNHCR.</string>
+    <string name="Prodi15_deskripsi">
+	<![CDATA[
+        Sejak tahun 2006, Fakultas Kedokteran (FK) menggunakan Kurikulum Berbasis Kompetensi dengan metode hibrid antara perkuliahan dan Problem Based Learning (PBL). Kurikulum ini merangsang cara berpikir yang komprehensif dan aktif serta berorientasikan masalah, sebagaimana yang akan dihadapi oleh lulusan kedokteran di dunia kerja nyata. Walau demikian FK masih menyelenggarakan perkuliahan, terutama untuk hal-hal yang dianggap sulit dan membutuhkan pemahaman konsep secara jelas, sehingga mahasiswa masih dipandu untuk memahami suatu materi.
+     	<br/>
+		Gelar:  S.Ked. (Sarjana Kedokteran)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi15_peminatan">
+	<![CDATA[
+		Setelah lulus ujian Sarjana Kedokteran (S.Ked), sebagai persiapan masuk ke Program studi profesi dokter(PSPD) harus menjalani kepaniteraan umum (PANUM) selama 4 minggu. Dalam kepaniteraan umum, calon dokter muda berlatih melakukan anamnesis dan pemeriksaan penyakit dalam, kebidanan dan kandungan, bedah, anestesi, saraf, anak, etika , kiat-kiat menjalani pendidikan dokter serta tata tertib. Kepaniteraan klinik pada program studi pendidikan dokter antara lain:
+		<br/>1. Ilmu Penyakit Dalam (10 minggu)
+		<br/>2. Ilmu Kesehatan Anak (10 minggu)
+		<br/>3. Ilmu Bedah (10 minggu)
+		<br/>4. Ilmu Kebidanan & Penyakit Kandungan (10 minggu)
+		<br/>5. Ilmu Kesehatan Masyarakat (10 minggu)
+		<br/>6. Ilmu Penyakit Saraf (5 minggu)
+		<br/>7. Ilmu Kedokteran Jiwa (5 minggu)
+		<br/>8. Ilmu Penyakit Mata (5 minggu)
+		<br/>9. Ilmu Penyakit Telinga, Hidung dan Tenggorokan (5 minggu)
+		<br/>10. Ilmu Penyakit Kulit dan Kelamin (5 minggu)
+		<br/>11. Ilmu Penyakit Gigi dan Mulut (5 minggu)
+		<br/>12. Ilmu Kedokteran Kehakiman (5 minggu)
+		<br/>13. Ilmu Farmasi Kedokteran (5 minggu)
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi15_prospek">Lulusannya dapat bekerja di rumah sakit, puskesmas, maupun instansi kesehatan lainnya dan menjalankan profesi dokter atau menjalankan praktek pribadi. Lulusan dapat pula mengambil studi lanjut S2 di bidang manajemen kesehatan, biomedis, manajemen rumah sakit, atau bidang spesialistik kedokteran untuk menjadi seorang spesialis. Selain itu, lulusan juga memiliki kompetensi untuk bekerja di bidang asuransi, terutama asuransi jiwa dan kesehatan, selaku underwriter atau orang yang memtuskan keabsahan klaim. Lulusan juga dapat bekerja di perusahaan farmasi dan membawahi produk obat tertentu, baik sebagai product specialist atau product manager.</string>
+    <string name="Prodi16_deskripsi"> 
+	<![CDATA[
+        Mulai tahun akademik 2011/2012 Fakultas Psikologi Unika Atma Jaya menggunakan kurikulum terbarunya. Berdasarkan kurikulum ini mahasiswa berkesempatan untuk menjalani pendidikan selama 8-10 semester. Dengan kurikulum ini, mahasiswa tidak hanya dibekali dengan teori-teori dasar yang dapat menjelaskan perilaku manusia, tetapi juga keterampilan untuk menelaah masalah psikologisnya, khususnya dalam konteks masyarakat Indonesia yang majemuk. Mulai semester 6 (enam) mahasiswa diberikan kesempatan untuk mengikuti pendidikan sesuai dengan minatnya secara khusus dalam bidang psikologi. Mahasiswa dapat memilih salah satu dari bidang peminatan yang tersedia. Dengan adanya berbagai peminatan ini pulalah, Fakultas Psikologi Unika Atma Jaya memiliki kekhasan yang membedakannya dengan Fakultas-fakultas Psikologi universitas lain di Jakarta.
+     	<br/>
+		Gelar:  S.Psi. (Sarjana Psikologi)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi16_peminatan">
+	<![CDATA[
+		<b>Psikologi Klinis</b><br/>
+		Mempelajari kesehatan mental dan gangguan-gangguan psikologis, baik yang dialami oleh anak maupun orang dewasa. Selain itu, peminatan ini juga membekali mahasiswa dengan keterampilan observasi dan wawancara, serta diagnostik yang bermanfaat dalam asesmen berbagai kasus klinis.
+		<br/><br/><b>Psikologi Industri/Organisasi</b><br/>
+		Mempelajari perilaku manusia dalam konteks dunia kerja dan organisasi. Hal ini terutama dikaitkan dengan pengelolaan sumber daya manusia, organisasi usaha -baik formal maupun informal, perilaku konsumen dan riset pemasaran, penyusunan alat ukur psikologi dalam konteks dunia kerja dan kerjasama antar budaya dalam konteks dunia kerja.
+		<br/><br/><b>Psikologi Pendidikan</b><br/>
+		Mempelajari faktor-faktor psikologis yang mempengaruhi proses belajar manusia dan perancangan aktivitas belajar pada berbagai komunitas seperti sekolah formal, informal, dan nonformal. Mahasiswa juga diberikan kesempatan untuk bersentuhan dengan masalah-masalah pendidikan anak luar biasa. Pengadministrasian tes psikologis yang umum digunakan dalam bidang pendidikan juga diperkenalkan di peminatan ini.
+		<br/><br/><b>Psikologi Sosial dan Komunitas</b><br/>
+		Meneropong gejala-gejala sosial serta perilaku sosial yang terjadi di masyarakat beserta dampaknya sebagai akibat perubahan sosial yang terjadi. Pembahasan secara umum juga dilakukan mencakup rancangan serta implementasi intervensi sosial yang dapat diterapkan untuk mengatasi masalah yang timbul.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi16_prospek">Lulusan diharapkan dapat bekerja di berbagai bidang yang memerlukan keahlian mereka mengenai perilaku manusia, misalnya dalam profesi wirausahawan, pendidik, kepala sekolah, konselor, konsultan, human resource, customer service, marketing, peneliti, humanitarian workers, jurnalis, dan lain sebagainya.</string>
+    <string name="Prodi17_deskripsi">
+	<![CDATA[
+        Fakultas Teknobiologi (FTb) adalah fakultas di bidang bioteknologi molekuler pertama di Indonesia dengan tenaga pengajar yang bertaraf internasional dan didukung saran laboratorium yang modern. FTb siap mengorbitkan calon mahasiswa menjadi calon praktisi dan cendekiawan bioteknologi yang professional untuk menggali dan memoles biodiversity menjadi biodiamonds di Indonesia.
+     	<br/>
+		Gelar: S.Si (Sarjana Sains)
+		<br/>
+		]]>
+    </string>
+    <string name="Prodi17_peminatan">
+	<![CDATA[
+		<b>Bioteknologi Lingkungan</b><br/>
+		Bioteknologi Lingkungan berfokus pada pemanfaatan mikroorganisme dalam lingkungan dan pengolahan limbah organik menjadi bahan berguna yang dapat dikembalikan ke alam dengan menggunakan teknik bioremediasi.
+		<br/><br/><b>Bioteknologi Industri</b><br/>
+		Bioteknologi Industri secara khusus menekankan pada pemanfaatan bioteknologi serta teknologi modern lainnya untuk diterapkan dalam berbagai macam jenis bidang industry (kesehatan, enzim, pertanian, peternakan) sehingga mampu menghasilkan produk/jasa yang berdaya jual tinggi.
+		<br/><br/><b>Bioteknologi Pangan</b><br/>
+		Bioteknologi Pangan berkonsentrasi pada ilmu pengetahuan yang komprehensif mengenai ilmu teknologi pangan, pengawetan pangan tradisional secara modern, serta membuat inovasi baru sehingga menghasilkan pangan fungsional yang berkualitas dan legal.
+        <br/>
+        ]]>
+    </string>
+    <string name="Prodi17_prospek">
+	<![CDATA[
+        Diharapkan lulusan FTb dapat berkiprah baik di taraf nasional maupun lapangan kerja internasional seperti:
+        <br/>• Industri pangan, pakan, dan agroindustri lainnya
+        <br/>• Industri farmasi: antibiotika, enzim, hormon, probiotik, prebiotik
+		<br/>• Industri kimia: deterjen, asam organik, zat warna, flavor, fragrance
+		<br/>• Pusat ekologi dan pusat penelitian di dalam dan luar negeri
+		<br/>• Staf pengajar di universitas
+		<br/>• Konsultan dan peneliti bioinformatika, farmakogenetika, dan nutrigenomika
+		<br/>• Bioetikawan
+        ]]>
+    </string>
+</resources>

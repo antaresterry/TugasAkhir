@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:background="@drawable/background" 
+    android:padding="5pt" 
+    android:orientation="horizontal"> 
+    <LinearLayout 
+       android:orientation="vertical" 
+       android:layout_height="wrap_content" 
+       android:layout_width="fill_parent" 
+       android:layout_gravity="center"> 
+
+       <TextView
+           android:id="@+id/about"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10pt"
+           android:background="@drawable/shape"
+           android:padding="5pt"
+           android:text="@string/Hangman_about_txt"
+           android:textColor="@color/white"
+           android:textSize="8pt"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/exit_button"
+           android:layout_width="fill_parent"
+           android:layout_height="20pt"
+           android:layout_marginLeft="20pt"
+           android:layout_marginRight="20pt"
+           android:layout_marginTop="15pt"
+           android:background="@drawable/shape"
+           android:text="@string/back_btn"
+           android:textColor="@color/white"
+           android:textSize="11pt"
+           android:textStyle="bold"
+           android:typeface="serif" />
+ 
+   </LinearLayout> 
+</LinearLayout> 

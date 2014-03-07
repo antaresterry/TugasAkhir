@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_item__finding__score">Score</string>
+    <string name="title_activity_item__finding__game">Inspect It More</string>
+    <string name="score_btn">Score</string>
+    <string name="Item_finding_about">Item finding is a game in which player must find any item that on a list. 
+The given time is 30 second.\n\nThe player wins if he can found all of the item on the list. Otherwise he loses.</string>
+</resources>

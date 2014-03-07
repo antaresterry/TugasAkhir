@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_cooking_game">Let\'s Get Cooking</string>
+    <string name="NewGame">New Game</string>
+    <string name="Continue">Continue</string>
+    <string name="title_activity_cooking_game__about">About</string>
+    <string name="title_activity_cooking__game">Cooking Game</string>
+    <string name="how_to_play"> How To Play\n
+
+		1. You need to choose what you want to cook.\n
+		2. After you choose what you want to cook, you can see the general recipe of that food and you have to memorize that recipe based on decided time.\n
+		3. You can choose the cooking ingredients from the grocery for a limited time.\n
+		4. After finish choosing the ingredients, you can choose the method for cooking that food.\n
+		5. For the will display the result and score of your food, if your score below 70 then you play it again until you get higher score then 71.\n 
+		6. Enjoy the game :) \n 
+    </string>
+	<string name="Menu">Menu :</string>
+	<string name="Sop">Sop Ayam</string>
+	<string name="Bola">Bola-Bola Daging Saus Pedas</string>
+	<string name="SapiBakar">Sapi Bakar Madu</string>
+	<string name="Recipe">Recipe</string>
+	<string name="Resep1a">
+	    Ingredients: \n\n         
+		1. Chicken     \n       
+		2. Potato        \n        
+		3. Carrot          \n      
+		4. Bean              \n     
+		5. Mushroom       \n
+		6. Egg              \n       
+		7. Corn               \n    
+		8. Tomato\n
+		9. Celery\n
+	</string>
+	<string name="Resep1b">
+	    Spices:\n\n
+		½ ts Pepper\n
+		1 ts Salt\n
+		½ ts Ground Nutmeg\n
+		2 pcs Garlic\n
+		1 pcs Garlic Onion\n
+		2 pcs Chicken Broth\n
+		1 pcs Leek\n
+	</string>
+	<string name="Resep2a">
+	    Ingredients:\n\n    
+		1.Beef \n                  
+		2.Bread\n                 
+		3.Flour \n                  
+		4.Egg     \n                 
+		6.Cabbage    \n        
+		7.Celery       \n           
+		8.Cooking Oil    \n  		
+	</string>
+	<string name="Resep2b">
+	    Spices:\n\n
+	    2 pcs Garlic\n 
+	    1 pcs Garlic Onion\n
+	    5 ts Olive Oil\n
+	    5 pcs Green Chili\n
+	    1 pcs Lime\n
+	    3 ts Pepper\n
+	    2 ts Salt\n
+	</string>
+	<string name="Resep3a">
+	    Ingredients :       \n\n         
+		1. Beef                 \n          
+		2. Honey  \n                     
+		3. Butter   \n                     
+		4. Soy Sauce  \n             
+		5. Barbeque Sauce\n   
+		6. Tomato Sauce    \n   
+		7. Chilli Sauce      \n      
+	</string>
+	<string name="Resep3b">
+	    Spices:\n\n
+	    1 pcs Cinnamon\n
+	    1 pcs Ginger\n
+	    3 pcs Garlic\n
+	    1 pcs Tamarind\n
+	    2 ts Salt\n
+	    2 ts Black Pepper\n
+	    2 ts Sugar\n
+	</string>
+	<string name="bahan">Choose your ingredients</string>
+	<string name="yourScore">Your Score is </string>
+	<string name="addspices">You can add spices several times</string>
+	
+</resources>

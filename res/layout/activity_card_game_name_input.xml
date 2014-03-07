@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.skripsi.atma.DetectiveGame" >
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cgmainchar" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shape"
+        android:height="100dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="20dp"
+        android:text="@string/DG_Hero_Name"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/avatar"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameInput"
+        android:layout_alignBottom="@+id/nameInput"
+        android:layout_marginLeft="29dp"
+        android:layout_toRightOf="@+id/nameInput"
+        android:clickable="true"
+        android:text="@string/done"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

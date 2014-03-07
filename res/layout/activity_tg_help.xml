@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tg_input_background" >   
+
+<RelativeLayout
+    android:id="@+id/tg_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <TextView
+		android:id="@+id/tg_title"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="32sp"
+	    android:textStyle="bold" />
+    
+    <TextView
+		android:id="@+id/tg_details1"
+		android:layout_below="@+id/tg_title"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp"  />
+    
+    <TextView
+		android:id="@+id/tg_details2"
+		android:layout_below="@+id/tg_details1"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp"  />
+    
+    <TextView
+		android:id="@+id/tg_details3"
+		android:layout_below="@+id/tg_details2"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp" />
+    
+    <TextView
+		android:id="@+id/tg_details4"
+		android:layout_below="@+id/tg_details3"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp" />
+    
+    <TextView
+		android:id="@+id/tg_details5"
+		android:layout_below="@+id/tg_details4"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp" />
+    
+    <TextView
+		android:id="@+id/tg_details6"
+		android:layout_below="@+id/tg_details5"
+	    android:background="@drawable/text_background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:gravity="center"
+	    android:textColor="@color/BLACK"
+	    android:textSize="20sp" />
+</RelativeLayout> 
+</ScrollView>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="DG_Chapters">
+        <item>Introducing The Young Investigator</item>
+        <item>The Case : The Theft at Final Exam</item>
+    </string-array>
+    <string-array name="DG_Story_01">
+        <item>Hi! My name is char_name. </item>
+        <item>I live in city_name City with my parents, but they often go overseas for their job, so I often alone at my apartment.</item>
+        <item>This is the front of my apartment. Pretty neat, huh? Starting tomorrow, I won\'t live here anymore.</item>
+        <item>char_nickname! Hurry up, we\'re about to go now!</item>
+        <item>That\'s my mom. We were going to move from this city to Asakura Town.</item>
+        <item>I pretty much enjoyed staying here, although mom and dad seldom stay at home.</item>
+        <item>My dad is the CEO of some company and my mom is a director, so they often go overseas.</item>
+        <item>Are you done yet, char_nickname? Let\'s go!</item>
+        <item>Alright dad, I\'m coming!</item>
+        <item>And so, char_name and gender_2 family went to Asakura Town.</item>
+    </string-array>
+    <string-array name="DG_Story_02">
+        <item>And so they arrived at their new home.</item>
+        <item>Wow! It\'s so beautiful!</item>
+        <item>Of course dear, Your dad and I picked our best decision for this. Isn\'t that right, darling?</item>
+        <item>Of course it is! Come, let see the inside of our new home.</item>
+        <item>Inside your new home..</item>
+        <item>It\'s neat! Where is my room?</item>
+        <item>It\'s upstairs, dear. Go and see it. Don\'t forget your stuff!</item>
+        <item>At your room..</item>
+        <item>Okay! It\'s time to set up my room.</item>
+        <item>After you finished setting up your room, you eat dinner with your family.</item>
+        <item>After that, because you are feeling tired, you decided to go to sleep..</item>
+    </string-array>
+    <string-array name="DG_Story_03">
+        <item>The next morning..</item>
+        <item>You wake up early.</item>
+        <item>Knowing this is your first time going to new school, you hastily make your way to school_name High School.</item>
+        <item>The class has started.</item>
+        <item>Good morning class. Today we got a new student, a young gender from city_name City. char_nickname, please step inside.</item>
+        <item>Good morning. My name is char_name. I come from city_name City. Please to meet you all!</item>
+        <item>Okay, that\'s for the introduction. Please take your seat next to friend_name_1.</item>
+        <item>So you go to your seat, and found friend_name_1 staring at you.</item>
+        <item>What will you do?</item>
+        <item>Hi char_name! Nice too meet you! My name is friend_name_1, I hope we will get along just fine.</item>
+        <item>Okay, let\'s start our class today. Everybody please open page 34.</item>
+        <item>And so, the class started.</item>
+    </string-array>
+    <string-array name="DG_Story_04">
+        <item>A few days later, after school..</item>
+        <item>Hi char_nickname! Want to grab a bite? I know a good place to buy some snacks and hangout!</item>
+        <item>Yes, they sell the best snacks in our town. Oh yeah, by the way my name is friend_name_2. You can call me friend_nickname_2.</item>
+        <item>What will you do?</item>
+        <item>You know, it\'s always nice to have a new friend, don\'t you think so? Hahaha.. Anyway, let\'s just go already! I\'m quite starving here.</item>
+        <item>You decided to go with them.</item>
+        <item>At the local store..</item>
+        <item>After you and your friends buy some snacks, then you and your friends decide to hang out at the nearest park.</item>
+        <item>While you\'re eating, friend_name_1 suddenly looks sad.</item>
+        <item>What will you do?</item>
+        <item>Hmm, actually.. yesterday my parent scolded me because of my bad grades.. And we only have 2 weeks left before the end term exam.. </item>
+        <item>Oh, that\'s not a big problem actually; all you have to do is learn, right?</item>
+        <item>Yeah, you got me and char_name here, right?</item>
+        <item>Yeah, that\'s right.. I\'m too lazy to do that, I envy char_nickname, you play with me everyday but still have good grades in every subject.. Only if I as smart as you..</item>
+        <item>Well, if you\'re as smart as char_nickname, you wouldn\'t study at all, right? Besides, char_nickname here did a very good studying at home, you know.</item>
+        <item>Haha. That\'s enough, you two..</item>
+        <item>The conversation continues till the evening, and you eventually go home.</item>
+        <item>After hanging out with your friends, you feel tired and decided to sleep early today.</item>
+        <item>Two weeks later you do your best for the final exam.</item>
+        <item>At the day after the exam, something really big is happening at school..</item>
+    </string-array>
+    <string-array name="DG_Story_05">
+        <item>That morning..</item>
+        <item>All the second grade student are ordered to gather at the main hall by the headmaster.</item>
+        <item>Good morning students, today I gathered you all here for something important.</item>
+        <item>Yesterday, our math teacher, Mr. Harada reported that there was a theft. The missing items are the exam answer sheets.</item>
+        <item>I apologize for this inconvenience. If the exam answer sheets is not found within 3 days, we have decided to repeat your final exam. Thank you for your attention.</item>
+        <item>Suddenly, the hall is filled with anxiety and perplexity. The headmaster says that they will redo the exam.</item>
+        <item>Aww man.. Why do we have to redo our exam? I can\'t believe this!</item>
+        <item>Yeah, friend_nickname_2! I studied really hard for it.. Can\'t we do something about it?</item>
+        <item>Hmm..</item>
+        <item>How about we try to find the answer sheets? That way we don\'t have to redo our exam!</item>
+        <item>Brilliant, char_nickname! So what do we do now?</item>
+        <item>How will you react?</item>
+        <item>Alright. That sounds cool. See you later!</item>
+    </string-array>
+    <string-array name="DG_Story_06">
+        <item>You and your friends split up to search for clues.</item>
+        <item>Where will you go now?</item>
+    </string-array>
+    <string-array name="DG_Story_Branch_01">
+        <item>What will you do?</item>
+        <item>I\'m a little curious about the missing answer sheets, how come? Where did you put the answer sheet? What time did you know it was missing?</item>
+        <item>Actually I\'m quite clumsy; I put the answer sheets on top of my desk.. The next morning, I found out that the answer sheet is missing.</item>
+        <item>The teacher\'s room usually locked up by the janitor. I\'m so sorry..</item>
+        <item>That\'s okay sir, thank you for your information. Where were you last night?</item>
+        <item>I was picking up my wife at her office at 7 p.m.</item>
+        <item>When you left the faculty room, is there anyone around?</item>
+        <item>No, all the teachers have gone home, and there is only the janitor at the corridor, sweeping the floor as always..</item>
+        <item>Okay Mr. Harada, thank you.</item>
+        <item>You don\'t think that there anymore information you can get from here, so you left.</item>
+    </string-array>
+    <string-array name="DG_Story_Branch_02">
+        <item>Aki you\'re so lucky, you didn\'t do well on that exam, did you?</item>
+        <item>Yeah stupid boy, you\'re a burden for your father, he clean our school every day and you still..</item>
+        <item>DON\'T MAKE FUN OF MY DAD!! </item>
+        <item>(I remember that kid called Akiyama, he\'s in my class)</item>
+        <item>What will you do?</item>
+        <item>Are you alright?</item>
+        <item>Of course not! I\'m tired being bullied everyday because of my bad grades and my father is a janitor..</item>
+        <item>Don\'t mind them, they\'re just delinquents.. They know nothing about you.</item>
+        <item>Maybe you\'re right.. Anyway, do you need something from me?</item>
+        <item>I\'m just wondering, do you know something about the missing answer sheets?</item>
+        <item>No, I don\'t.. Why do you ask?</item>
+        <item>How will you react?</item>
+        <item>Where were you last night?</item>
+        <item>I\'m playing at my friend\'s house at 6 p.m. to 8 p.m., then I was picked up by my dad..</item>
+        <item>Okay then, I guess that is sufficient. Thank you, Aki.</item>
+        <item>You\'re welcome..</item>
+        <item>You left Akiyama.</item>
+    </string-array>
+    <string-array name="DG_Story_Branch_03">
+        <item>HEY!! What are you doing? The library is closed already!</item>
+        <item>Oh! I\'m sorry, I\'m new here..</item>
+        <item>Hahaha! You don\'t have to be that surprised.. I\'m just teasing you, what grade are you in?</item>
+        <item>I\'m in the second grade sir.</item>
+        <item>Ah! You\'re the same as my son, His name is Akiyama. Do you know him?</item>
+        <item>Yes, I remembered. There is a boy in my class who was called Aki.</item>
+        <item>He always had been ashamed because his dad is a janitor. Even since he joined the school, he always had been so gloomy..</item>
+        <item>What will you do?</item>
+        <item>Oh yeah sir, may I ask something?</item>
+        <item>Sure, ask me anything!!</item>
+        <item>Did you know something about the theft at the Faculty room?</item>
+        <item>N-n-no, why\'d do you ask? I\'m pretty sure I locked up the room that day..</item>
+        <item>I\'m just curious. Where were you last night?</item>
+        <item>I was picking up my son at his friend\'s house at 6 p.m..</item>
+        <item>Thank you, then. It\'s nice to talk with you, sir.</item>
+        <item>You left the library.</item>
+    </string-array>
+    <string-array name="DG_Story_07">
+        <item>Lunch time.. You meet your friend at the promised place. </item>
+        <item>Let\'s gather all the information we got.</item>
+        <item>After you discuss all the information with your friend..</item>
+        <item>Okay, let\'s summarize this case. So, our math teacher, Mr. Harada, put the answer sheet on his table at the Faculty Room.</item>
+        <item>Then, the Faculty room is locked every evening and only specific person could get into the Faculty room.</item>
+        <item>So, I think we have 3 suspects, which are Mr. Harada, Akiyama, and the janitor.</item>
+        <item>I think the culprit is..</item>
+        <item>Who is the culprit?</item>
+        <item>Why do you think he was the culprit?</item>
+        <item>Are you sure? How can he take the answer sheets?</item>
+        <item>Then, what about his alibi?</item>
+        <item>Okay then, let\'s head to headmaster\'s office then!</item>
+        <item>You and your friends go to the headmaster\'s office.</item>
+        <item>At the Headmaster\'s Office..</item>
+        <item>Excuse me Mr. Headmaster; can we take your time?</item>
+        <item>Yes, come and sit. Is there anything I can do to help you guys?</item>
+        <item>Ehm.. Mr. Headmaster, we think we know the culprit who stole the answer sheet..</item>
+        <item>Oh yeah? How do you know that?</item>
+        <item>We\'ve been doing several investigations around our school, and found ourselves to that conclusion.</item>
+        <item>So.. Who is it? Who stole the answer sheet?</item>
+        <item>It\'s the janitor, or in other word Akiyama\'s dad.</item>
+        <item>How can you be so sure?</item>
+        <item>We found several evidences. Can you call the janitor here, sir?</item>
+        <item>Okay then. You guys better have a good explanation for this.</item>
+        <item>Several minutes later, when the janitor arrives at Headmaster\'s Office..</item>
+        <item>Excuse me sir, what do you call me for?</item>
+        <item>Our students here think you stole the answer sheets.</item>
+        <item>What? Why would I?</item>
+        <item>We found some evidences that you are the culprit.</item>
+        <item>First, the Faculty room can only be entered by the teachers and you, the janitor.</item>
+        <item>But, the other teacher can take the answer sheets too, right?</item>
+        <item>Yeah sure, why would you accuse me as the culprit?</item>
+        <item>The second evidence is your son.</item>
+        <item>What? My son, Akiyama? What did he do?</item>
+        <item>That is the key to this case. Akiyama didn\'t do well at the last exam. So you, as his father, stole the answer sheets, so the final exam can be redo again.</item>
+        <item>Is that right, mister?</item>
+        <item>Y-y-yes, sir.. B-but, I have no choice! My son is being bullied by others because of me, and I can\'t stand if he\'s being bullied again for bad grades..</item>
+        <item>But sir, that\'s not the right way to support him..</item>
+        <item>Yeah, why don\'t you do something else?</item>
+        <item>No, I can\'t! I can\'t teach him anything, because I\'m only a janitor..</item>
+        <item>I get it, but what you are doing now can\'t be accepted. I may have to punish you because of this..</item>
+        <item>Suddenly, Akiyama barges in into the room.</item>
+        <item>Stop! Don\'t hurt my dad! I beg you!</item>
+        <item>Calm down Aki, this is my fault. I must accept the punishment for my doing..</item>
+        <item>But dad, why? I never wanted you to do that.. I just need you to support me, to always be here by my side..</item>
+        <item>I\'m sorry dear, I\'m sorry.. I promise I will be always at your side, supporting you no matter what..</item>
+        <item>The janitor and Akiyama hug each other. The Headmaster seems he\'s been thinking about something.</item>
+        <item>Hmm. Okay then, Akiyama and the janitor, you can come out. About the punishment, don\'t worry about it. I hope you’ll never repeat the same mistake again, Mr. Janitor. And don\'t forget to return the answer sheets to Mr. Harada.</item>
+        <item>Okay sir, thank you very much.. If you excuse me..</item>
+        <item>The Janitor and Akiyama step out of the room.</item>
+        <item>Hey kids, thank you very much for your cooperation. How did you guys did it?</item>
+        <item>We just have curious mind, sir. And also we don\'t want to redo our exam.</item>
+        <item>Oh, I see. I must say thank you again, and I hope you have a nice day.</item>
+        <item>You and your friends step out from Headmaster room.</item>
+        <item>We did it, char_nickname! We solve our first case!</item>
+        <item>Yeah, how about some celebration? I know a good ramen place!</item>
+        <item>Alright, today it\'s on me!</item>
+        <item>So, after you and your friends solve your first case, you celebrate at local ramen shop.</item>
+        <item>Congratulations on finishing the game! Tap to see the result.</item>
+    </string-array>
+    
+    <string-array name="DG_decision_01">
+        <item>Ignore</item>
+        <item>Smile</item>
+        <item>Say Hi</item>
+    </string-array>
+    <string-array name="DG_decision_result_01">
+        <item>…</item>
+        <item>You smiled to gender_3.</item>
+        <item>Well hello there.</item>
+    </string-array>
+    <string-array name="DG_decision_02">
+        <item>Smile</item>
+        <item>Say Hi</item>
+        <item>Ignore</item>
+    </string-array>
+    <string-array name="DG_decision_result_02">
+        <item>You smiled to gender_3.</item>
+        <item>Hi friend_nickname_2! Nice to meet you.</item>
+        <item>…</item>
+    </string-array>
+    <string-array name="DG_decision_03">
+        <item>Ask gender_3 what\'s wrong</item>
+        <item>Start a cheerful conversation</item>
+        <item>Don\'t ask anything</item>
+    </string-array>
+    <string-array name="DG_decision_result_03">
+        <item>What\'s wrong? You looked sad..</item>
+        <item>Hey, cheer up! What are you feeling blue about?</item>
+        <item>…</item>
+    </string-array>
+    <string-array name="DG_decision_04">
+        <item>Act cool</item>
+        <item>Confused</item>
+    </string-array>
+    <string-array name="DG_decision_result_04">
+        <item>First of all, we need to find several suspects.</item>
+        <item>…</item>
+        <item>Gather information and regroup at lunch. Get it?</item>
+        <item>Why don\'t we try to gather information and regroup at lunch?</item>
+    </string-array>
+    
+    <string-array name="DG_decision_05">
+        <item>Faculty Room</item>
+        <item>Classroom</item>
+        <item>Library</item>
+    </string-array>
+    <string-array name="DG_decision_result_05">
+        <item>You meet the math teacher there. Out of curiosity, you try to ask him about the sheets.</item>
+        <item>You overheard some students making fun of their friend..</item>
+        <item>You meet one of the janitors of school_name.</item>
+    </string-array>
+    <string-array name="DG_decision_branch_01">
+        <item>Greet and ask him politely</item>
+        <item>Directly ask him</item>
+    </string-array>
+    <string-array name="DG_decision_branch_01_result">
+        <item>Good morning Mr. Harada!</item>
+        <item>Mr. Harada, how could you lose our answer sheets?</item>
+        <item>Good morning, char_name. Can I help you?</item>
+        <item>Don\'t you know that there is a polite way to ask?</item>
+        <item>May I ask you some question, mister Harada?</item>
+        <item>Err.. I\'m sorry sir. I was a little carried away back then..</item>
+        <item>Yes of course, what is it?</item>
+        <item>Just what is it you wanted to ask me?</item>
+    </string-array>
+    <string-array name="DG_decision_branch_02_01">
+        <item>Stop the bullying</item>
+        <item>Watch them first</item>
+    </string-array>
+    <string-array name="DG_decision_branch_02_result_01">
+        <item>Hey, that\'s enough! Here Aki, come with me!</item>
+        <item>…</item>
+        <item>You left with Akiyama to corridor.</item>
+        <item>Let\'s leave him be! He\'s useless anyway..</item>
+        <item>Thank you for helping me!</item>
+        <item>You approach Akiyama.</item>
+    </string-array>
+    <string-array name="DG_decision_branch_02_02">
+        <item>State your suspicion to him</item>
+        <item>Ask him politely</item>
+    </string-array>
+    <string-array name="DG_decision_branch_02_result_02">
+        <item>I\'m pretty sure you know something about it. You didn\'t do well in your exam, right?</item>
+        <item>Actually, I\'m searching for information about that, and if you know something about it, it will be very helpful to me.</item>
+        <item>Yes, I did. But I really don\'t know anything about it! I know I didn\'t do well in my exam, but it doesn\'t mean that I stole the answer sheets!</item>
+        <item>I see. I really don\'t know much about it, but if there is anything I can help, I will help.</item>
+        <item>I\'m sorry, I didn\'t mean it that way..</item>
+        <item>Thank you for your understanding.</item>
+    </string-array>
+    <string-array name="DG_decision_branch_03">
+        <item>Cheer him up</item>
+        <item>Say nothing</item>
+    </string-array>
+    <string-array name="DG_decision_branch_03_result">
+        <item>I know he\'ll open up anytime sir, as he\'ll get friends in this school.</item>
+        <item>…</item>
+        <item>Hahaha! You\'re a good kid.</item>
+        <item>Anyway, do you need something from me?</item>
+    </string-array>
+    <string-array name="DG_decision_06">
+        <item>Mr. Harada</item>
+        <item>Akiyama</item>
+        <item>The Janitor</item>
+    </string-array>
+    <string-array name="DG_decision_07_01">
+        <item>Mr. Harada wants the students to redo their exam.</item>
+        <item>He can hide the answer sheets by himself.</item>
+        <item>He accidentally put the answer sheets somewhere else.</item>
+    </string-array>
+    <string-array name="DG_decision_07_02">
+        <item>Akiyama doesn\'t do well in his exam.</item>
+        <item>Akiyama hates Mr. Harada.</item>
+        <item>Akiyama is a kleptomaniac.</item>
+    </string-array>
+    <string-array name="DG_decision_07_03">
+        <item>The janitor wants the students to redo their exam, so his son can get another chance.</item>
+        <item>The janitor wants to make the students suffer.</item>
+        <item>The janitor wants to study from the answer sheets.</item>
+    </string-array>
+    <string-array name="DG_decision_08_01">
+        <item>He has the access to the faculty room.</item>
+        <item>He has a companion to take the answer sheets.</item>
+        <item>He forced open the door to the faculty room.</item>
+    </string-array>
+    <string-array name="DG_decision_08_02">
+        <item>He has the access to the faculty room.</item>
+        <item>He ask his dad for it.</item>
+        <item>He can take his dad\'s key to access the faculty room.</item>
+    </string-array>
+    <string-array name="DG_decision_08_03">
+        <item>He has the access to the faculty room.</item>
+        <item>He threatened Mr. Harada.</item>
+        <item>He disguised himself to be Mr. Harada and take the answer sheets.</item>
+    </string-array>
+    <string-array name="DG_decision_09_01">
+        <item>He has no alibi.</item>
+        <item>He was at school at 8 p.m.</item>
+        <item>He meets the janitor before he picks up his wife, around 7 p.m.</item>
+    </string-array>
+    <string-array name="DG_decision_09_02">
+        <item>He said he was picked up by his dad at 8 p.m., but his dad said at 6 p.m.</item>
+        <item>He has no alibi.</item>
+        <item>He was at school at 8 p.m.</item>
+    </string-array>
+    <string-array name="DG_decision_09_03">
+        <item>He said he picked up his son at 6 p.m., but his son said at 8 p.m.</item>
+        <item>He has no alibi.</item>
+        <item>He picked up his son at 8 p.m.</item>
+    </string-array>
+    
+    <string name="title_activity_detective_game">DetectiveGame</string>
+    <string name="title_activity_detective_game_conversation">DetectiveGameConversation</string>
+    <string name="title_activity_detective_game_menu">DetectiveGameMenu</string>
+    <string name="title_activity_detective_game_name_input">DetectiveGameNameInput</string>
+    
+    <string name="DG_Name">Default Name</string>
+    <string name="DG_Conversation">Conversation</string>
+    <string name="DG_Hero_Name">Please input your character name :</string>
+    <string name="DG_Menu1">New Game</string>
+    <string name="DG_Menu2">Continue Game</string>
+    <string name="DG_Menu3">Options</string>
+    <string name="DG_Hero_Choose">Choose Your Hero :</string>
+    <string name="DG_Hero_Choose_Male">Male Hero</string>
+    <string name="DG_Hero_Choose_Female">Female Hero</string>
+    <string name="DG_options">Options</string>
+    <string name="DG_option_1">Text Speed</string>
+    <string name="DG_text_speed_1">Slow</string>
+    <string name="DG_text_speed_2">Fast</string>
+    <string name="DG_text_speed_3">Instant</string>
+    <string name="DG_delete_save">Delete Saved Data</string>
+    <string name="DG_about">About Game</string>
+    <string name="DG_temp_result">Social Skills :\n
+        You can easily adept to any social circumstances. You don\'t have problem in communicating with others. You have high Social skill. \n\n
+        Analytical Skills :\n
+        You have good thinking ability and you can assess your surrounding quickly, as well as taking good decision from it. You have high Analytical skill.</string>
+    <string name="DG_Synopsis">Synopsis\n\nThe main hero, (from this point will be referred as Hero) is a sixteen years old high school student (2nd Grade). Hero’s parent rarely stays at home, they often goes overseas to do their duty as a director and CEO of some company. This spring, Hero and Hero\'s family moved out to countryside (Asakura Town), to live quietly and far away from urban noise.
+\nHero transferred to new school. There Hero met new friends. They have a good time, until someday in the beginning of final exam, suddenly the headmaster announce that there\'s somebody who stole the test question and answer sheet. The headmaster says that if there is no one confesses, the final exam won\'t be started.
+\nThis moves Hero to find the real culprit is. Hero and friends cautiously search for evidence and witness, and came to conclusion. At last, the culprit is caught and Hero and friends were rewarded for their good deeds.
+    </string>
+    
+</resources>

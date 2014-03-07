@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_anatomy__game">Anatomy Game</string>
+    <string name="title_activity_anatomy__score">Score</string>
+    <string name="Anatomy_score"> Anatomy is a memory game in which the game will display an image of an organ and player will be asked to choose one of the possible names.
+        \n If player has been confident with his choice, then player needs to press the confirm button to proceed to the next image. 
+        \n The given time to guess all images is thirty seconds. 
+        \n After all images have been successfully guessed, the game will return to the home page.
+        \n Player can select the score menu on the home page to see his last score and his highest score.</string>
+    <string name="Frontal">Frontal</string>
+    <string name="Maksila">Maksila</string>
+    <string name="Mandibula">Mandibula</string>
+    <string name="Temporal">Temporal</string>
+    <string name="Zigometik">Zigometik</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>     
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tg_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/tg_player"
+        android:background="@drawable/text_background"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"        
+        android:layout_marginRight="5dp"
+        android:textColor="@color/BLACK"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/tg_status"
+        android:background="@drawable/text_background"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tg_player"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/BLACK"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/tg_buyc"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/shape"
+        android:text="Buy Clothes"
+        android:textColor="@color/WHITE"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/tg_setp"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tg_buyc"
+        android:background="@drawable/shape"
+        android:text="Set Price"
+        android:textColor="@color/WHITE"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/tg_adv"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tg_setp"
+        android:background="@drawable/shape"
+        android:text="Advertise"
+        android:textColor="@color/WHITE"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/tg_journal"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tg_adv"
+        android:background="@drawable/shape"
+        android:text="Journal"
+        android:textColor="@color/WHITE"
+        android:textSize="24sp" />
+    
+    <ImageView
+        android:id="@+id/tg_start"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/tg_journal"
+        android:contentDescription="To start a day"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tg_start"
+        android:clickable="true" />
+
+</RelativeLayout> 

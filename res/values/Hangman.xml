@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_hangman__about">About</string>
+    <string name="title_activity_hangman__game">Hangman Game</string>
+    <string name="Hangman_about_txt">Hangman is a word game in which Android selects a word that the 
+player must guess by supplying each of its letters: for each incorrect guess a part of a figure 
+of a hanged man is drawn.\n\nThe player wins if he opens all letters of a hidden word before all 
+parts of Hangman are drawn. Otherwise he losses.</string>
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/backg"
+    tools:context="com.skripsi.atma.DetectiveGame" >
+
+    <ImageView
+        android:contentDescription="@string/image"
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nameText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/blueshape"
+        android:height="100dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="20dp"
+        android:text="@string/DG_Hero_Name"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/nameText"
+        android:layout_alignRight="@+id/nameText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="80dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameInput"
+        android:layout_alignBottom="@+id/nameInput"
+        android:layout_marginLeft="-70dp"
+        android:layout_toRightOf="@+id/nameInput"
+        android:clickable="true"
+        android:text="@string/done"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blueshape"
+        android:padding="4dp"
+        android:visibility="invisible"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BLACK" >
+
+    <TextView
+        android:id="@+id/optView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/blueshape"
+        android:padding="20dp"
+        android:text="@string/DG_options"
+        android:textColor="@color/WHITE" />
+
+    <TextView
+        android:id="@+id/speedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textSpeed"
+        android:layout_alignLeft="@+id/optView"
+        android:layout_alignTop="@+id/textSpeed"
+        android:layout_marginLeft="23dp"
+        android:gravity="center"
+        android:text="@string/DG_option_1"
+        android:textColor="@color/WHITE"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/textSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/optView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/speedView"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/slow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/DG_text_speed_1"
+            android:textColor="@color/WHITE" />
+
+        <RadioButton
+            android:id="@+id/fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DG_text_speed_2"
+            android:textColor="@color/WHITE" />
+
+        <RadioButton
+            android:id="@+id/instant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DG_text_speed_3"
+            android:textColor="@color/WHITE" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_border"
+        android:text="@string/DG_delete_save" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_border"
+        android:text="@string/DG_about" />
+
+</RelativeLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Words">
+        <item>visi</item>
+        <item>misi</item>
+        <item>pelindung</item>
+        <item>ketua pembina</item>
+        <item>anggota pembina</item>
+        <item>ketua pengurus</item>
+        <item>sekretaris</item>
+        <item>bendahara</item>
+        <item>anggota pengurus</item>
+        <item>ketua pengawas</item>
+        <item>anggota pengawas</item>
+        <item>eksekutif</item>
+        <item>rumah sakit</item>
+        <item>rmh skt</item>
+        <item>rs</item>
+        <item>tanggal</item>
+        <item>tgl</item>
+        <item>pendiri</item>
+        <item>rektor</item>
+        <item>wakil rektor</item>
+        <item>pastor</item>
+        <item>romo</item>
+        <item>direktur sekolah pasca</item>
+        <item>direktur pasca</item>
+        <item>dekan fakultas ekonomi</item>
+        <item>dekan ekonomi</item>
+        <item>dekan fe</item>
+        <item>dekan fakultas ilmu administrasi bisnis dan ilmu komunikasi</item>
+        <item>dekan ilmu administrasi bisnis dan ilmu komunikasi</item>
+        <item>dekan fia</item>
+        <item>dekan fakultas keguruan</item>
+        <item>dekan keguruan</item>
+        <item>dekan fkip</item>
+        <item>dekan ilmu pendidikan</item>
+        <item>dekan fakultas ilmu pendidikan</item>
+        <item>dekan fakultas teknik</item>
+        <item>dekan teknik</item>
+        <item>dekan ft</item>
+        <item>dekan fakultas hukum</item>
+        <item>dekan hukum</item>
+        <item>dekan fh</item>
+        <item>dekan fakultas kedokteran</item>
+        <item>dekan kedokteran</item>
+        <item>dekan fk</item>
+        <item>dekan fakultas psikologi</item>
+        <item>dekan psikologi</item>
+        <item>dekan fpsi</item>
+        <item>dekan fakultas teknobiologi</item>
+        <item>dekan teknobiologi</item>
+        <item>dekan bio</item>
+        <item>dekan ftb</item>
+        <item>kepala biro admin</item>
+        <item>kepala admin</item>
+        <item>ketua biro admin</item>
+        <item>ketua admin</item>
+        <item>koordinator biro admin</item>
+        <item>koordinator admin</item>
+        <item>koor biro admin</item>
+        <item>koor admin</item>
+        <item>kepala biro akun</item>
+        <item>kepala akun</item>
+        <item>ketua biro akun</item>
+        <item>ketua akun</item>
+        <item>koordinator biro akun</item>
+        <item>koordinator akun</item>
+        <item>koor biro akun</item>
+        <item>koor akun</item>
+        <item>kepala biro sumber</item>
+        <item>kepala sumber</item>
+        <item>kepala sdm</item>
+        <item>ketua biro sumber</item>
+        <item>ketua sumber</item>
+        <item>ketua sdm</item>
+        <item>koordinator biro sumber</item>
+        <item>koordinator sumber</item>
+        <item>koordinator sdm</item>
+        <item>koor biro sumber</item>
+        <item>koor sumber</item>
+        <item>koor sdm</item>
+        <item>kepala biro kemahasiswaan</item>
+        <item>kepala kemahasiswaan</item>
+        <item>kepala bkak</item>
+        <item>bkak</item>
+        <item>ketua biro kemahasiswaan</item>
+        <item>ketua kemahasiswaan</item>
+        <item>ketua bkak</item>
+		<item>koordinator biro kemahasiswaan</item>
+        <item>koordinator kemahasiswaan</item>
+        <item>koordinator bkak</item>
+        <item>koor biro kemahasiswaan</item>
+        <item>koor kemahasiswaan</item>
+        <item>koor bkak</item>
+        <item>kepala biro pengelola</item>
+        <item>kepala pengelola</item>
+        <item>kepala bpps</item>
+        <item>bpps</item>
+        <item>ketua biro pengelola</item>
+        <item>ketua pengelola</item>
+        <item>ketua bpps</item>
+        <item>koordinator biro pengelola</item>
+        <item>koordinator pengelola</item>
+        <item>koordinator bpps</item>
+        <item>koor biro pengelola</item>
+        <item>koor pengelola</item>
+        <item>koor bpps</item>
+        <item>ketua lembaga penelitian</item>
+        <item>ketua penelitian</item>
+        <item>ketua lppm</item>
+        <item>lppm</item>
+        <item>kepala lembaga penelitian</item>
+        <item>kepala penelitian</item>
+        <item>kepala lppm</item>
+        <item>koordinator lembaga penelitian</item>
+        <item>koordinator penelitian</item>
+        <item>koordinator lppm</item>
+        <item>koor lembaga penelitian</item>
+        <item>koor penelitian</item>
+        <item>koor lppm</item>
+        <item>kepala sektretariat rektorat</item>
+        <item>sekretariat rektorat</item>
+        <item>ketua sektretariat rektorat</item>
+        <item>koordinator sektretariat rektorat</item>
+        <item>koor sektretariat rektorat</item>
+        <item>kepala perpustakaan</item>
+        <item>ketua perpustakaan</item>
+        <item>koordinator perpustakaan</item>
+        <item>koor perpus</item>
+        <item>perpus</item>
+        <item>koordinator upt mata</item>
+        <item>koordinator upt mk</item>
+        <item>koordinator upt matkul</item>
+        <item>koor upt mata</item>
+        <item>koor upt mk</item>
+        <item>koor upt matkul</item>
+        <item>kepala upt mata</item>
+        <item>kepala upt mk</item>
+        <item>kepala upt matkul</item>
+        <item>ketua upt mata</item>
+        <item>ketua upt mk</item>
+        <item>ketua upt matkul</item>
+        <item>koordinator upt penerbit</item>
+        <item>koordinator penerbit</item>
+        <item>koor upt penerbit</item>
+        <item>koor penerbit</item>
+        <item>ketua upt penerbit</item>
+        <item>ketua penerbit</item>
+        <item>kepala upt penerbit</item>
+        <item>kepala penerbit</item>
+        <item>ketua lembaga penjaminan</item>
+        <item>ketua penjaminan</item>
+        <item>ketua lpm</item>
+        <item>lpm</item>
+        <item>kepala lembaga penjaminan</item>
+        <item>kepala penjaminan</item>
+        <item>kepala lpm</item>
+        <item>koordinator lembaga penjaminan</item>
+        <item>koordinator penjaminan</item>
+        <item>koordinator lpm</item>
+        <item>koor lembaga penjaminan</item>
+        <item>koor penjaminan</item>
+        <item>koor lpm</item>
+        <item>ketua upt pusat komputer</item>
+        <item>ketua upt komputer</item>
+        <item>ketua puskom</item>
+        <item>puskom</item>
+        <item>kepala upt pusat komputer</item>
+        <item>kepala upt komputer</item>
+        <item>kepala puskom</item>
+        <item>koordinator upt pusat komputer</item>
+        <item>koordinator upt komputer</item>
+        <item>koordinator puskom</item>
+        <item>koor upt pusat komputer</item>
+        <item>koor upt komputer</item>
+        <item>koor puskom</item>
+        <item>koordinator marketing</item>
+        <item>koordinator public</item>
+        <item>koor marketing</item>
+        <item>koor public</item>
+        <item>koordinator mpr</item>
+        <item>koor mpr</item>
+        <item>ketua marketing</item>
+        <item>ketua public</item>
+        <item>ketua mpr</item>
+        <item>kepala marketing</item>
+        <item>kepala public</item>
+        <item>kepala mpr</item>
+        <item>koordinator urusan internasional</item>
+        <item>koordinator internasional</item>
+        <item>koor urusan internasional</item>
+        <item>koor internasional</item>
+        <item>ketua urusan internasional</item>
+        <item>ketua internasional</item>
+        <item>kepala urusan internasional</item>
+        <item>kepala internasional</item>
+        <item>kepala upt pusat pengajaran</item>
+        <item>kepala upt pengajaran</item>
+        <item>kepala pusat pengajaran</item>
+        <item>kepala pusat bahasa</item>
+        <item>ketua upt pusat pengajaran</item>
+        <item>ketua upt pengajaran</item>
+        <item>ketua pusat pengajaran</item>
+        <item>ketua pusat bahasa</item>
+        <item>koordinator upt pusat pengajaran</item>
+        <item>koordinator upt pengajaran</item>
+        <item>koordinator pusat pengajaran</item>
+        <item>koordinator pusat bahasa</item>
+        <item>koor upt pusat pengajaran</item>
+        <item>koor upt pengajaran</item>
+        <item>koor pusat pengajaran</item>
+        <item>koor pusat bahasa</item>
+        <item>alamat</item>
+        <item>almt</item>
+        <item>lokasi</item>
+        <item>tel</item>
+        <item>telp</item>
+        <item>tlp</item>
+        <item>telepon</item>
+        <item>telephone</item>
+        <item>telefon</item>
+        <item>telefone</item>
+        <item>phone</item>
+        <item>faks</item>
+        <item>fax</item>
+        <item>daftar fakultas</item>
+        <item>fakultas</item>
+        <item>dftr fakultas</item>
+    </string-array>
+    
+</resources>

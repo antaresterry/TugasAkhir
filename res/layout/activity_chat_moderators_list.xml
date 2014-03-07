@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moderatorList"
+            android:id="@+id/userView" 
+            android:layout_gravity="left|center_vertical" 
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+    <ListView
+            android:id="@+id/moderatorsList"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delAcc" />
+
+    <ImageView
+        android:id="@+id/splash_qb_link_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/qb"
+        android:src="@drawable/qb_splash_link" />
+
+	</LinearLayout>

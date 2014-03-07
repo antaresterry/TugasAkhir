@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_engine__design__game">Boost Your Engine</string>
+    <string name="title_activity_engine__design__tips">Tips and Tricks</string>
+    <string name="tips">Tips and Tricks</string>
+    <string name="rpm">Your max rpm is </string>
+    <string name="hp">Your max power is </string>
+    <string name="suggestRPM">You can increase your max rpm by increasing caburetor size.</string>
+    <string name="suggestHP">You can increase your max power by increasing bore and stroke size of your piston.</string>
+    <string name="title_activity_tips_and_tricks">Tips_and_tricks</string>
+	<string name="tips1">
+	    You can increase performance by upgrading your motorcycle spark plug.\nThis can make your motorcycle engine sound more smooth, better spark plug fire and slightly increased performance.
+	</string>
+	<string name="tips2">
+	    You can use high octane gasoline for better performance or adding some octane booster.\nBut this increase your engine heat and may cause your engine overheat.
+	</string>
+	<string name="tips3">
+	    You can increase your max rpm by increasing carburetor size.\nBut carburetor size just change your motorcycle torque character.
+	</string>
+	<string name="tips4">
+	    You can increase your max power by incresing bore and stroke size of your piston.  
+	</string>
+</resources>

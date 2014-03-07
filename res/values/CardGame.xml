@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_card_game_main_menu">CardGameMainMenu</string>
+    <string name="title_activity_card_game_choosing">CardGameChoosing</string>
+    <string name="title_activity_card_game_conversation">CardGameConversation</string>
+    <string name="title_activity_card_game_town">CardGameTown</string>
+    <string name="title_activity_card_game_world_map">CardGameWorldMap</string>
+    <string name="title_activity_card_game_stats">CardGameStats</string>
+    <string name="title_activity_card_game_battle">CardGameBattle</string>
+    <string name="title_activity_card_game_tournament">CardGameTournament</string>
+    <string name="title_activity_card_game_name_input">CardGameNameInput</string>
+    <string name="title_activity_card_game_story_mode">CardGameStoryMode</string>
+    <string name="title_activity_card_game_menu">CardGameMenu</string>
+    <string name="CG_Menu1">Story</string>
+    <string name="CG_Menu2">Tournament</string>
+    <string name="CG_Menu3">Back To Main Menu</string>
+    <string name="CardGameModeStory">Story</string>
+    <string name="CardGameModeTournament">Tournament</string>
+    <string name="Place">Cafe</string>
+    <string name="Town">Beginner City</string>
+    <string name="conversation">Contoh</string>
+    <string name="conversation_option1">Pilihan 1</string>
+    <string name="conversation_option2">Pilihan 2</string>
+    <string name="conversation_option3">Pilihan 3</string>
+    <string name="Search">Search</string>
+    <string name="Arena">Arena</string>
+    <string name="Deck">Deck</string>
+    <string name="Stats">Stats</string>
+    <string name="Map">Map</string>
+    <string name="Back">Back</string>
+    <string name="Name">Name : </string>
+    <string name="NoOfBattles">No. Of Battle : </string>
+    <string name="Win">Win : </string>
+    <string name="Lose">Lose : </string>
+    <string name="Draw">Draw : </string>
+    <string name="WinPercentage">Win % : </string>
+    <string name="LosePercentage">Lose % : </string>
+    <string name="DrawPercentage">Draw % : </string>
+    <string name="NameDB">Name From DB</string>
+    <string name="NoOfBattlesDB">No Of Battles From DB</string>
+    <string name="WinDB">Win From Db</string>
+    <string name="LoseDB">Lose From DB</string>
+    <string name="DrawDB">Draw From DB</string>
+    <string name="WinPercentageDB">Win % From DB</string>
+    <string name="LosePercentageDB">Lose % From DB</string>
+    <string name="DrawPercentageDB">Draw % From DB</string>
+    <string name="Message">Now it\'s your turn. Do you want to use ability?</string>
+    <string name="VS">VS</string>
+    <string name="Opponent">Opponent</string>
+    <string name="HPDB">20</string>
+    <string name="ATTDB">3</string>
+    <string name="slash"> / </string>
+
+    <string-array name="Kota">
+        <item>  Kurukshetra  </item>
+        <item>  Indraprastha  </item>
+        <item>  Hastinapura  </item>
+        <item>  Wardamana  </item>
+        <item>  Pramanakati  </item>
+        <item>  Waranawati  </item>
+        <item>  Wrekastali  </item>
+        <item>  Menara    </item>
+        <item>  Nirvana  </item>
+    </string-array>
+    <string name="title_activity_card_game_deck">CardGameDeck</string>
+    <string name="card1">1st Card : </string>
+    <string name="card2">2nd Card : </string>
+    <string name="card3">3rd Card : </string>
+    <string name="card">defaultcard</string>
+    <string name="Edit">Edit</string>
+    <string name="DeckHelp">Touch the card\'s name to edit.</string>
+    <string name="title_activity_card_game_deck_edit">CardGameDeckEdit</string>
+    <string name="title_activity_card_game_deck_edit_left">CardGameDeckEditLeft</string>
+    <string name="title_activity_card_game_deck_choose">CardGameDeckChoose</string>
+    <string name="CGChoose">Choose</string>
+    <string name="CGDiscard">Discard</string>
+    <string name="CGCancel">Cancel</string>
+    <string name="CardList">Card List</string>
+    <string name="CardInfo">Card Information</string>
+    <string name="title_activity_row">Row</string>
+    <string name="title_activity_card_game_row">CardGameRow</string>
+</resources>

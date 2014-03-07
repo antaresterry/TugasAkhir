@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="30dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:src="@drawable/getcooking"
+        android:contentDescription="@string/image" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.68"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/new_button"
+            android:layout_width="fill_parent"
+            android:layout_height="18pt"
+            android:layout_marginTop="1pt"
+            android:background="@drawable/shape"
+            android:text="@string/NewGame"
+            android:textColor="@color/white"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="fill_parent"
+            android:layout_height="18pt"
+            android:layout_marginTop="1pt"
+            android:background="@drawable/shape"
+            android:text="@string/about_btn"
+            android:textColor="@color/white"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="18pt"
+            android:layout_marginTop="1pt"
+            android:background="@drawable/shape"
+            android:text="@string/exit"
+            android:textColor="@color/white"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</RelativeLayout> 

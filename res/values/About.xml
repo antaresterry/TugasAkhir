@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<string name="AboutText">
+	<![CDATA[
+		<b>AtmaDroid version 1.0b (23 September 2013)</b>
+		<br/>
+		<br/><b>Created by:</b>
+		<br/>Yoseph Sunarli
+		<br/>Antares
+		<br/>Agatha Leonita
+		<br/>Ferzhan Perdana Jiva Satya
+		<br/><b>Advisor:</b>
+		<br/>Lukas
+		<br/>Hoshael Erlan
+		<br/>Agatha Novi Ardhiati
+		<br/>
+		<br/>For detailed information, review, update, and changelog please visit <b>Android Market.</b>
+		<br/>
+		<br/>Most Senior High School (SHS) students in Indonesia will continue their study to university after they have graduated from SHS. Students often have doubt when choosing their departments in university as they do not have enough detailed information of available departments in university. Although they have acquired the needed information, they are often stuck with the long and boring text. What they really need is a new, fun, educative, detailed, yet interactive way to deliver the desired information.
+		<br/>
+		<br/>This mobile application, <b>AtmaDroid</b> has a main purpose which is to help students to choose what department is most suitable for them from the available departments in Atma Jaya Catholic University of Indonesia. In <b>AtmaDroid</b>, information is delivered in an interesting way with dynamically changing content, interactive games, chat, and even interest test. By looking up the dynamically changing content, students can receive the most up to date information from Atma Jaya Catholic University of Indonesia. By playing the games and taking the interest test, students can access their ability and interest and compare them with the prerequisites for a specific department. By using chat, students can ask question about additional information from the administrators.
+		<br/>
+		<br/>In general, <b>AtmaDroid</b> will be divided into 6 (four) main features which are the information center, games, chat, interest test, summary, and about this app. Furthermore, each feature is divided again into several categories or sections, as follows: <br/>
+		1.	The information center covers the essential information and news update of Atma Jaya Catholic University of Indonesia. You can also access the information from Atma Jaya’s official Facebook page. (An internet access is needed for this of course). <br/>
+		2.	The games covers 8 (eight) games, which are the item finding game, engine design game, cooking game, anatomy game, hangman game, detective game, tycoon game, and strategy card game. Each game has its own explanation or tutorial so be sure to check them first. <br/>
+		3.	The chat includes the online chat between user and moderator or between user and the chat bot for the offline chat. For the online chat, you need an internet access. To use it, you need to sign up first. You can ask additional information from one of the four moderators available. <br/>
+		4.	The interest test provides a psychological test to quickly asses a student’s interest. <br/>
+		5.	The summary provides department recommendations as a summary from the games’ results and or interest test. <br/>
+		6.	Lastly, the about is where you are right now. 
+		<br/>
+		<br/><b>Looking for more?</b> 
+		<br/>Visit Atma Jaya Catholic University of Indonesia’s page (www.atmajaya.ac.id).
+		<br/>
+		<br/><b>Credits:</b>
+		<br/>http://blogs.koreanclass101.com - for the image of magnifier used in item finding game.
+		<br/>http://findicons.com - for lots of items and objects.
+		<br/>http://iconarchieve.com - for main menu icons and other objects.
+		<br/>http://shass.sakura.ne.jp - for beautiful backgrounds
+		<br/>http://ausp.edu.vn - for the image of the cooking game.
+		<br/>http://fav.me/d6fto1f - for the image of Collosal Titan used in anatomy game.
+		<br/>http://trucktren.com - for the image of piston.
+		<br/>http://atomic.com.au - for the carburetor image.
+		<br/>http://droidhangman.googlecode.com - for the paper background.
+		<br/>http://bgfons.com - for the wood background.
+		<br/>http://nasyidmadany.wordpress.com - for the skeleton image.
+		<br/>http://hastingsvisionclinic.net - for the eye image.
+		<br/>http://microbewiki.kenyon.edu - for the skin image.
+		<br/>http://bassnovel.com - for background images on detective game.
+		<br/>http://flickr.com/photos/richard_at_work/5427802972 - for background images on detective game.
+		<br/>http://all-free-download.com - for the tycoon game background image.
+		<br/>http://freedigitalphotos.net - for the items on the tycoon game.
+		<br/>http://dreamstime.com - for the items on the tycoon game.
+		<br/>http://forums.rpgmakerweb.com/index.php?/topic/1227-character-machine-v10-discontinued - for the characters generator used in detective, tycoon, and strategy card games.
+		<br/>http://tokohwayangpurwa.blogspot.com - for the images and information of Wayang characters.
+		<br/>http://daftarwayangkulitlengkap.blogspot.com - for the images of Wayang characters.
+		<br/>RPG Maker VX Ace by Enterbrain - http://rpmakerweb.com - for the background images and icons used in detective and strategy card games.
+		<br/>http://telegraph.co.uk, http://on.realself.com, http://usq.edu.au , http://adityafajar.com, <br/>http://collider.com, http://joniew.files.wordpress.com, http://arenakarier.com, <br/>http://dmangus.blogspot.com, <br/>http://hargasahamku.wordpress.com, <br/>http://rapgenius.com, <br/>http://gamerexp.com, <br/>http://87tt.com , <br/>http://mmohuts.com, <br/>http://welovecreative.wordpress.com  - for the images used in the interest test. <br/><br/>
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skripsi.atma.DetectiveGame" >
+    
+    <com.skripsi.atma.TypeWriter
+        android:id="@+id/textBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/blueshape"
+        android:height="80dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="@string/DG_Name"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:contentDescription="@string/image"
+        android:id="@+id/avatarLeft"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/textBox" />
+
+    <ImageView
+        android:id="@+id/avatarRight"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/textBox"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/image" />
+
+    <ImageView
+        android:id="@+id/avatarCenter"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/textBox"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image" />
+
+    <com.skripsi.atma.TypeWriter
+        android:id="@+id/conversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textBox"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="10dp"
+        android:text="@string/DG_Conversation"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

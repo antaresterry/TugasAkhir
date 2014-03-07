@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skripsi.atma.DetectiveGame" >
+
+    <com.skripsi.atma.TypeWriter
+        android:id="@+id/conversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/blueshape"
+        android:gravity="center"
+        android:height="80dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/DG_Name"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

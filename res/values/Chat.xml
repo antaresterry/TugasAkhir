@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_chat_online">Online Chat</string>
+    <string name="title_activity_chat_offline">Chat Bot</string>
+    <string name="title_activity_chat_sign_up">Sign Up to QuickBlox</string>
+    <string name="title_activity_chat_users_list">Moderator List</string>
+    <string name="title_activity_chat_menu">Chat Menu</string>
+    <string name="title_activity_chat">Chat Room</string>
+    <string name="title_activity_chat_login">Login to QuickBlox</string>
+    
+    <string name="olchat">Online Chat</string>
+    <string name="offchat">Offline Chat</string>
+    
+    <string name="signUp">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="emailHint">Input your email here</string>
+    <string name="login">Login</string>
+    <string name="loginHint">Input your login here</string>
+    <string name="fullNameHint">Input your Full Name here</string>
+    <string name="fullName">Full Name</string>
+    <string name="password">Password</string>
+    <string name="passwordHint">Input your password here</string>
+    <string name="confPassword">Confirm Password</string>
+    <string name="confPasswordHint">Confirm your password here</string>
+    
+    <string name="messageHint">Type your message here</string>
+    <string name="me">Me</string>
+    <string name="friend">Friend</string>
+    
+    <string name="showPass">Show Password</string>
+    <string name="forgotPass">Forgot Password?</string>
+    
+    <string name="moderatorList">Select moderator to chat</string>
+    <string name="delAcc">Delete Account</string>
+    <string name="chat">Chat</string>
+    <string name="send">Send</string>
+    
+    <string name="qb">QuickBlox</string>
+</resources>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardgametitle"
+    android:gravity="bottom"
+    tools:context=".CardGameMainMenu"
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape"
+        android:onClick="back_to_main_menu"
+        android:text="@string/CG_Menu3"
+        android:textColor="@color/WHITE" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape"
+        android:text="@string/CG_Menu2"
+        android:textColor="@color/WHITE" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape"
+        android:text="@string/CG_Menu1"
+        android:textColor="@color/WHITE" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape"
+        android:minWidth="96dip"
+        android:text="Tutorial"
+        android:textColor="@color/WHITE"
+        android:textColorHint="@color/white" />
+
+</RelativeLayout>

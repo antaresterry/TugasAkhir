@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chooseHero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.skripsi.atma.DetectiveGame" >
+    
+    <TextView
+        android:id="@+id/textBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/blueshape"
+        android:height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="@string/DG_Hero_Choose"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textBox"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/dgmalehero001" />
+
+    <TextView
+        android:id="@+id/femaleHero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textBox"
+        android:layout_below="@+id/female"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:text="@string/DG_Hero_Choose_Female"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/maleHero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/femaleHero"
+        android:layout_alignBottom="@+id/femaleHero"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/male"
+        android:layout_marginLeft="65dp"
+        android:clickable="true"
+        android:text="@string/DG_Hero_Choose_Male"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textBox"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/dgfemalehero001" />
+
+</RelativeLayout>

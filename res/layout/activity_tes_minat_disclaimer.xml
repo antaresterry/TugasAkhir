@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".TesMinatDisclaimer"
+    tools:ignore="ObsoleteLayoutParam,HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pernyataan"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal"
+            android:scrollbars="vertical"
+            android:text="Fitur tes minat ini dirancang sedemikian rupa untuk membantu Anda dalam memilih pendidikan di jenjang universitas.  Diharapkan Anda memberikan jawaban yang sesuai mungkin agar tes ini dapat memberikan hasil yang valid. Dengan menekan tombol &quot;Saya setuju&quot; di bawah ini, Anda bertanggung jawab sepenuhnya terhadap penggunaan tes ini. Segala hasil yang tidak sesuai yang disebabkan oleh penyalahgunaan tes ini, seperti menjawab secara asal, bukan menjadi tanggung jawab dari pihak pengembang aplikasi dan segala pihak yang terkait di dalamnya."
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Kembali ke menu utama" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:text="Saya setuju" />
+
+</RelativeLayout>
